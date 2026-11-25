@@ -1,0 +1,106 @@
+{
+  "run_id": "VFUSE-20261124-003",
+  "stage_id": "P4_20261124-001",
+  "scene": "office",
+  "status": "completed",
+  "nonpositive_fused_pixel_count": 0,
+  "camera_source": "ETH3D GT PINHOLE intrinsics and COLMAP poses",
+  "scale_fit_reference_index": 0,
+  "scale_median_gt_over_omega_ref0": 2.2890658378601074,
+  "scale_fit_pixel_count": 141517,
+  "evaluation_reference_indices": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "conditions": [
+    "c3_percentile"
+  ],
+  "inference_count": 5,
+  "runs": [
+    {
+      "reference_index": 0,
+      "frame": "DSC_0219.JPG",
+      "ordered_frame_ids": [
+        "DSC_0219.JPG",
+        "DSC_0220.JPG",
+        "DSC_0229.JPG",
+        "DSC_0250.JPG",
+        "DSC_0251.JPG"
+      ],
+      "status": "completed",
+      "nonpositive_fused_pixel_count": 0,
+      "seconds": 0.49238384499039967,
+      "output_npz": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P4_20261124-001/results/inference/office/c3_gtcamera/ref_00/v_fuse.npz",
+      "output_npz_sha256": "9d1ffdad2e30432695f451c6fe979dfc1aedf03c39b97863f9410863c00498a2"
+    },
+    {
+      "reference_index": 1,
+      "frame": "DSC_0220.JPG",
+      "ordered_frame_ids": [
+        "DSC_0220.JPG",
+        "DSC_0229.JPG",
+        "DSC_0250.JPG",
+        "DSC_0251.JPG",
+        "DSC_0219.JPG"
+      ],
+      "status": "completed",
+      "nonpositive_fused_pixel_count": 0,
+      "seconds": 0.051840767002431676,
+      "output_npz": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P4_20261124-001/results/inference/office/c3_gtcamera/ref_01/v_fuse.npz",
+      "output_npz_sha256": "cf9a628a48393fee1e6753b7aa1a7ba7de0c834008855a1421a91b1923fed9ce"
+    },
+    {
+      "reference_index": 2,
+      "frame": "DSC_0229.JPG",
+      "ordered_frame_ids": [
+        "DSC_0229.JPG",
+        "DSC_0250.JPG",
+        "DSC_0251.JPG",
+        "DSC_0219.JPG",
+        "DSC_0220.JPG"
+      ],
+      "status": "completed",
+      "nonpositive_fused_pixel_count": 0,
+      "seconds": 0.04855126999609638,
+      "output_npz": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P4_20261124-001/results/inference/office/c3_gtcamera/ref_02/v_fuse.npz",
+      "output_npz_sha256": "6a89365dc1ef7e18c6f1e742d5e6ce0997cf93da96457cfd9dacf4a03965a243"
+    },
+    {
+      "reference_index": 3,
+      "frame": "DSC_0250.JPG",
+      "ordered_frame_ids": [
+        "DSC_0250.JPG",
+        "DSC_0251.JPG",
+        "DSC_0219.JPG",
+        "DSC_0220.JPG",
+        "DSC_0229.JPG"
+      ],
+      "status": "completed",
+      "nonpositive_fused_pixel_count": 0,
+      "seconds": 0.04870228200161364,
+      "output_npz": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P4_20261124-001/results/inference/office/c3_gtcamera/ref_03/v_fuse.npz",
+      "output_npz_sha256": "992fcffa8dd5c291c7895f0cf832d39dc1545a20ad01ba208e44c5787bcfd42b"
+    },
+    {
+      "reference_index": 4,
+      "frame": "DSC_0251.JPG",
+      "ordered_frame_ids": [
+        "DSC_0251.JPG",
+        "DSC_0219.JPG",
+        "DSC_0220.JPG",
+        "DSC_0229.JPG",
+        "DSC_0250.JPG"
+      ],
+      "status": "completed",
+      "nonpositive_fused_pixel_count": 0,
+      "seconds": 0.04926927499764133,
+      "output_npz": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P4_20261124-001/results/inference/office/c3_gtcamera/ref_04/v_fuse.npz",
+      "output_npz_sha256": "e31ca3dabda9460ba809823a16975598eae61c8d6de92b3a2dd11831b42bc7d2"
+    }
+  ],
+  "gt_depth_used_for_reference0_scale": true,
+  "heldout_gt_depth_read_by_inference": false,
+  "gpu": "NVIDIA GeForce RTX 5060"
+}

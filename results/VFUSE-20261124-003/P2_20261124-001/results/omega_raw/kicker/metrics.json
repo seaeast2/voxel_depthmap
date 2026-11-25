@@ -1,0 +1,79 @@
+{
+  "run_id": "VFUSE-20261124-003",
+  "stage_id": "P2_20261124-001",
+  "scene": "kicker",
+  "status": "completed",
+  "execution_context": "host GPU outside sandbox",
+  "image_domain": "undistorted PINHOLE",
+  "count": 5,
+  "resolution": 512,
+  "seed": 0,
+  "frame_manifest": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P1_20261124-001/results/frames/kicker.json",
+  "frame_manifest_sha256": "ec27b60fae3b2cff847e02cb597b70c6b6feb856747c06e4b07eef39f9569b69",
+  "checkpoint": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P0_20261124-001/assets/checkpoints/vggt_omega_1b_512.pt",
+  "checkpoint_sha256": "c02da418b18bb01d0392598d3f6147366bcde1bb70fd08a5e3bf7925b0667934",
+  "source_commit": "48b23c8ce72c9a8fcf987f0d7f43d8e4870759f6",
+  "gt_read_by_inference": false,
+  "gpu": "NVIDIA GeForce RTX 5060",
+  "python": "3.11.18",
+  "torch": "2.15.0+cu132",
+  "torch_cuda": "13.2",
+  "forward_seconds": 1.0958972790103871,
+  "process_seconds": 14.117048796993913,
+  "peak_allocated_bytes": 5156147712,
+  "peak_reserved_bytes": 5536481280,
+  "output_npz": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P2_20261124-001/results/omega_raw/kicker/vggt_omega_raw.npz",
+  "output_npz_sha256": "ac413436008cd6d8c53605e5f7d4c5c25ba98e3b818070e55b682fbe9e533874",
+  "frame_ids": [
+    "DSC_6495.JPG",
+    "DSC_6510.JPG",
+    "DSC_6511.JPG",
+    "DSC_6512.JPG",
+    "DSC_6513.JPG"
+  ],
+  "shapes": {
+    "camera_and_register_tokens": [
+      1,
+      5,
+      17,
+      2048
+    ],
+    "pose_enc": [
+      1,
+      5,
+      9
+    ],
+    "depth": [
+      1,
+      5,
+      336,
+      512,
+      1
+    ],
+    "depth_conf": [
+      1,
+      5,
+      336,
+      512
+    ],
+    "images": [
+      1,
+      5,
+      3,
+      336,
+      512
+    ],
+    "extrinsics": [
+      1,
+      5,
+      3,
+      4
+    ],
+    "intrinsics": [
+      1,
+      5,
+      3,
+      3
+    ]
+  }
+}

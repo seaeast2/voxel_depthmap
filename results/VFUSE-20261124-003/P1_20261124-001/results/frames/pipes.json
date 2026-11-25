@@ -1,0 +1,362 @@
+{
+  "run_id": "VFUSE-20261124-003",
+  "stage_id": "P1_20261124-001",
+  "scene": "pipes",
+  "selection_rule": "five same-camera views maximizing minimum pairwise RGB-only shared COLMAP tracks, then total; lexical tie-break",
+  "frame_count": 5,
+  "all_image_count": 14,
+  "laser_gt_opened": false,
+  "min_pair_shared_tracks": 280,
+  "total_pair_shared_tracks": 4739,
+  "pair_shared_track_counts": [
+    717,
+    355,
+    495,
+    280,
+    486,
+    635,
+    363,
+    522,
+    518,
+    368
+  ],
+  "pair_baseline_colmap_units": [
+    0.5762061476707458,
+    1.3484171628952026,
+    0.8498916625976562,
+    1.5759329795837402,
+    0.7735077142715454,
+    0.2779986262321472,
+    1.000015377998352,
+    0.498981237411499,
+    0.2307271957397461,
+    0.7278735041618347
+  ],
+  "frames": [
+    {
+      "frame_index": 0,
+      "name": "DSC_0634.JPG",
+      "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P0_20261124-001/assets/datasets/eth3d_laser/extracted/pipes/images/dslr_images_undistorted/DSC_0634.JPG",
+      "size_bytes": 10385068,
+      "sha256": "661b824a1db24687e7ba7aa9efefc12d3efc9d95994bd75473363de7e496dcf7",
+      "original_wh": [
+        6220,
+        4141
+      ],
+      "camera": {
+        "model": "PINHOLE",
+        "width": 6220,
+        "height": 4141,
+        "params": [
+          3430.27,
+          3429.23,
+          3119.2,
+          2057.75
+        ]
+      },
+      "original_camera": {
+        "model": "THIN_PRISM_FISHEYE",
+        "width": 6048,
+        "height": 4032,
+        "params": [
+          3430.27,
+          3429.23,
+          3032.95,
+          2003.59,
+          0.218983,
+          0.155576,
+          -0.000274629,
+          -0.000387159,
+          -0.0364669,
+          0.302935,
+          0.00133613,
+          0.00101227
+        ]
+      },
+      "world_to_camera": [
+        [
+          0.9874869062271818,
+          -0.15757071013356466,
+          -0.006409472511349629,
+          0.841517
+        ],
+        [
+          -0.0022551459240646443,
+          0.026529506623167498,
+          -0.9996454869578479,
+          0.181774
+        ],
+        [
+          0.15768488940520198,
+          0.987151283535779,
+          0.025842195474335472,
+          0.202188
+        ]
+      ],
+      "image_id": 1,
+      "camera_id": 0,
+      "distorted_camera_id": 0,
+      "pose_pair_max_abs_delta": 0.0
+    },
+    {
+      "frame_index": 1,
+      "name": "DSC_0635.JPG",
+      "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P0_20261124-001/assets/datasets/eth3d_laser/extracted/pipes/images/dslr_images_undistorted/DSC_0635.JPG",
+      "size_bytes": 10346406,
+      "sha256": "d0f5a55f79373850317eab550438058e765a75ba90c2f411c9a20317a7dbb049",
+      "original_wh": [
+        6220,
+        4141
+      ],
+      "camera": {
+        "model": "PINHOLE",
+        "width": 6220,
+        "height": 4141,
+        "params": [
+          3430.27,
+          3429.23,
+          3119.2,
+          2057.75
+        ]
+      },
+      "original_camera": {
+        "model": "THIN_PRISM_FISHEYE",
+        "width": 6048,
+        "height": 4032,
+        "params": [
+          3430.27,
+          3429.23,
+          3032.95,
+          2003.59,
+          0.218983,
+          0.155576,
+          -0.000274629,
+          -0.000387159,
+          -0.0364669,
+          0.302935,
+          0.00133613,
+          0.00101227
+        ]
+      },
+      "world_to_camera": [
+        [
+          0.9984989587943982,
+          0.05462354450890793,
+          -0.0040121903974858625,
+          0.291006
+        ],
+        [
+          -0.005424767399157447,
+          0.025736562303868615,
+          -0.999654040785833,
+          0.181953
+        ],
+        [
+          -0.054501387002234745,
+          0.9981752840789349,
+          0.025994250686838305,
+          0.0599135
+        ]
+      ],
+      "image_id": 2,
+      "camera_id": 0,
+      "distorted_camera_id": 0,
+      "pose_pair_max_abs_delta": 0.0
+    },
+    {
+      "frame_index": 2,
+      "name": "DSC_0636.JPG",
+      "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P0_20261124-001/assets/datasets/eth3d_laser/extracted/pipes/images/dslr_images_undistorted/DSC_0636.JPG",
+      "size_bytes": 10289785,
+      "sha256": "9ee7dae20e0af9e656b8195aaa366b9d16b7651c2eaf2d99aeba0118a68ad151",
+      "original_wh": [
+        6220,
+        4141
+      ],
+      "camera": {
+        "model": "PINHOLE",
+        "width": 6220,
+        "height": 4141,
+        "params": [
+          3430.27,
+          3429.23,
+          3119.2,
+          2057.75
+        ]
+      },
+      "original_camera": {
+        "model": "THIN_PRISM_FISHEYE",
+        "width": 6048,
+        "height": 4032,
+        "params": [
+          3430.27,
+          3429.23,
+          3032.95,
+          2003.59,
+          0.218983,
+          0.155576,
+          -0.000274629,
+          -0.000387159,
+          -0.0364669,
+          0.302935,
+          0.00133613,
+          0.00101227
+        ]
+      },
+      "world_to_camera": [
+        [
+          0.9558633790581701,
+          0.2937981304835348,
+          -0.00280340861762135,
+          -0.456291
+        ],
+        [
+          -0.009533533547372741,
+          0.021477744141432276,
+          -0.9997238709987357,
+          0.187703
+        ],
+        [
+          -0.29365679340617784,
+          0.9556261638480685,
+          0.02333072342269643,
+          0.160552
+        ]
+      ],
+      "image_id": 3,
+      "camera_id": 0,
+      "distorted_camera_id": 0,
+      "pose_pair_max_abs_delta": 0.0
+    },
+    {
+      "frame_index": 3,
+      "name": "DSC_0644.JPG",
+      "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P0_20261124-001/assets/datasets/eth3d_laser/extracted/pipes/images/dslr_images_undistorted/DSC_0644.JPG",
+      "size_bytes": 10755119,
+      "sha256": "598d5ec54a3ec21065a2d19d92ea5f20f3abc334f90dfcfac0c98cbc1d9b5f62",
+      "original_wh": [
+        6220,
+        4141
+      ],
+      "camera": {
+        "model": "PINHOLE",
+        "width": 6220,
+        "height": 4141,
+        "params": [
+          3430.27,
+          3429.23,
+          3119.2,
+          2057.75
+        ]
+      },
+      "original_camera": {
+        "model": "THIN_PRISM_FISHEYE",
+        "width": 6048,
+        "height": 4032,
+        "params": [
+          3430.27,
+          3429.23,
+          3032.95,
+          2003.59,
+          0.218983,
+          0.155576,
+          -0.000274629,
+          -0.000387159,
+          -0.0364669,
+          0.302935,
+          0.00133613,
+          0.00101227
+        ]
+      },
+      "world_to_camera": [
+        [
+          0.9796369676666936,
+          0.20075834420337524,
+          -0.002738396159290099,
+          0.0192445
+        ],
+        [
+          -0.06077243101678781,
+          0.2834958092140179,
+          -0.9570458911600841,
+          0.187231
+        ],
+        [
+          -0.1913586246008156,
+          0.9377239537256201,
+          0.2899235475087801,
+          -0.0333083
+        ]
+      ],
+      "image_id": 11,
+      "camera_id": 0,
+      "distorted_camera_id": 0,
+      "pose_pair_max_abs_delta": 0.0
+    },
+    {
+      "frame_index": 4,
+      "name": "DSC_0645.JPG",
+      "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P0_20261124-001/assets/datasets/eth3d_laser/extracted/pipes/images/dslr_images_undistorted/DSC_0645.JPG",
+      "size_bytes": 11139278,
+      "sha256": "36d186000b48caf6bef5bcc98d520ed13e44296e62e7275ae70ba2cfe1654819",
+      "original_wh": [
+        6220,
+        4141
+      ],
+      "camera": {
+        "model": "PINHOLE",
+        "width": 6220,
+        "height": 4141,
+        "params": [
+          3430.27,
+          3429.23,
+          3119.2,
+          2057.75
+        ]
+      },
+      "original_camera": {
+        "model": "THIN_PRISM_FISHEYE",
+        "width": 6048,
+        "height": 4032,
+        "params": [
+          3430.27,
+          3429.23,
+          3032.95,
+          2003.59,
+          0.218983,
+          0.155576,
+          -0.000274629,
+          -0.000387159,
+          -0.0364669,
+          0.302935,
+          0.00133613,
+          0.00101227
+        ]
+      },
+      "world_to_camera": [
+        [
+          0.9790436786936851,
+          0.2034845604891793,
+          -0.008216377088551927,
+          -0.685431
+        ],
+        [
+          -0.06599878649075147,
+          0.27886098508748597,
+          -0.9580609120394092,
+          0.243451
+        ],
+        [
+          -0.19265937659943766,
+          0.9385257506528855,
+          0.28644681874608696,
+          0.136244
+        ]
+      ],
+      "image_id": 12,
+      "camera_id": 0,
+      "distorted_camera_id": 0,
+      "pose_pair_max_abs_delta": 0.0
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+extracting_undistorted_rgb_calibration=office
+{
+  "run_id": "VFUSE-20261124-003",
+  "stage_id": "P1_20261124-001",
+  "scene": "office",
+  "selection_rule": "five same-camera views maximizing minimum pairwise RGB-only shared COLMAP tracks, then total; lexical tie-break",
+  "frame_count": 5,
+  "all_image_count": 26,
+  "laser_gt_opened": false,
+  "min_pair_shared_tracks": 269,
+  "total_pair_shared_tracks": 3434,
+  "pair_shared_track_counts": [
+    367,
+    366,
+    271,
+    462,
+    410,
+    269,
+    312,
+    291,
+    280,
+    406
+  ],
+  "pair_baseline_colmap_units": [
+    0.3385825455188751,
+    0.4282636046409607,
+    0.5413349270820618,
+    0.38937634229660034,
+    0.09395958483219147,
+    0.651473879814148,
+    0.6449034214019775,
+    0.7290381789207458,
+    0.7374747395515442,
+    0.29509788751602173
+  ]
+}
+extracting_undistorted_rgb_calibration=pipes
+{
+  "run_id": "VFUSE-20261124-003",
+  "stage_id": "P1_20261124-001",
+  "scene": "pipes",
+  "selection_rule": "five same-camera views maximizing minimum pairwise RGB-only shared COLMAP tracks, then total; lexical tie-break",
+  "frame_count": 5,
+  "all_image_count": 14,
+  "laser_gt_opened": false,
+  "min_pair_shared_tracks": 280,
+  "total_pair_shared_tracks": 4739,
+  "pair_shared_track_counts": [
+    717,
+    355,
+    495,
+    280,
+    486,
+    635,
+    363,
+    522,
+    518,
+    368
+  ],
+  "pair_baseline_colmap_units": [
+    0.5762061476707458,
+    1.3484171628952026,
+    0.8498916625976562,
+    1.5759329795837402,
+    0.7735077142715454,
+    0.2779986262321472,
+    1.000015377998352,
+    0.498981237411499,
+    0.2307271957397461,
+    0.7278735041618347
+  ]
+}
+extracting_undistorted_rgb_calibration=courtyard
+{
+  "run_id": "VFUSE-20261124-003",
+  "stage_id": "P1_20261124-001",
+  "scene": "courtyard",
+  "selection_rule": "five same-camera views maximizing minimum pairwise RGB-only shared COLMAP tracks, then total; lexical tie-break",
+  "frame_count": 5,
+  "all_image_count": 38,
+  "laser_gt_opened": false,
+  "min_pair_shared_tracks": 2011,
+  "total_pair_shared_tracks": 24220,
+  "pair_shared_track_counts": [
+    2836,
+    2210,
+    2033,
+    2011,
+    2565,
+    2296,
+    2183,
+    2712,
+    2420,
+    2954
+  ],
+  "pair_baseline_colmap_units": [
+    0.571276068687439,
+    1.2607388496398926,
+    1.820003867149353,
+    2.328606367111206,
+    0.6909652948379517,
+    1.2514009475708008,
+    1.7599793672561646,
+    0.5607064366340637,
+    1.0691086053848267,
+    0.5086612105369568
+  ]
+}
+extracting_undistorted_rgb_calibration=delivery_area
+{
+  "run_id": "VFUSE-20261124-003",
+  "stage_id": "P1_20261124-001",
+  "scene": "delivery_area",
+  "selection_rule": "five same-camera views maximizing minimum pairwise RGB-only shared COLMAP tracks, then total; lexical tie-break",
+  "frame_count": 5,
+  "all_image_count": 44,
+  "laser_gt_opened": false,
+  "min_pair_shared_tracks": 822,
+  "total_pair_shared_tracks": 12018,
+  "pair_shared_track_counts": [
+    1148,
+    868,
+    822,
+    966,
+    1822,
+    961,
+    1222,
+    1039,
+    1285,
+    1885
+  ],
+  "pair_baseline_colmap_units": [
+    0.7972590923309326,
+    1.469893217086792,
+    2.8382482528686523,
+    2.2610831260681152,
+    0.6726346611976624,
+    2.1133487224578857,
+    1.567435622215271,
+    1.5570273399353027,
+    1.0967960357666016,
+    0.5931339859962463
+  ]
+}
+extracting_undistorted_rgb_calibration=kicker
+{
+  "run_id": "VFUSE-20261124-003",
+  "stage_id": "P1_20261124-001",
+  "scene": "kicker",
+  "selection_rule": "five same-camera views maximizing minimum pairwise RGB-only shared COLMAP tracks, then total; lexical tie-break",
+  "frame_count": 5,
+  "all_image_count": 31,
+  "laser_gt_opened": false,
+  "min_pair_shared_tracks": 910,
+  "total_pair_shared_tracks": 12574,
+  "pair_shared_track_counts": [
+    1114,
+    1240,
+    1041,
+    910,
+    1602,
+    1279,
+    944,
+    1946,
+    1176,
+    1322
+  ],
+  "pair_baseline_colmap_units": [
+    0.5664896965026855,
+    0.18731679022312164,
+    0.28023114800453186,
+    0.7556530833244324,
+    0.43009188771247864,
+    0.7769824266433716,
+    1.2844507694244385,
+    0.34730881452560425,
+    0.8545370697975159,
+    0.5075084567070007
+  ]
+}

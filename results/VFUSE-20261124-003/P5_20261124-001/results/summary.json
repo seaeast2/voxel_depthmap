@@ -1,0 +1,95 @@
+{
+  "run_id": "VFUSE-20261124-003",
+  "stage_id": "P5_20261124-001",
+  "status": "completed",
+  "scenes": [
+    "office",
+    "pipes",
+    "courtyard",
+    "delivery_area",
+    "kicker"
+  ],
+  "evaluation_reference_indices": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "scale_fit_reference_index": 0,
+  "gt_domain": "ETH3D laser depth remapped into undistorted PINHOLE output grid; sparse valid mask",
+  "prediction_scale": "same scene scale estimated from reference 0 and applied to every prediction including V-FUSE outputs",
+  "aggregation": "equal-weight mean across 20 held-out frames; pixel metrics computed within each frame",
+  "confidence_diagnostic": "rank/calibration proxy; Spearman and decile error plus descending-confidence risk-coverage. Confidence is not a calibrated probability.",
+  "scale_fits": {
+    "office": {
+      "scale_gt_over_omega_ref0_median": 2.2890658378601074,
+      "fit_reference_index": 0,
+      "fit_pixel_count": 141517
+    },
+    "pipes": {
+      "scale_gt_over_omega_ref0_median": 2.361809730529785,
+      "fit_reference_index": 0,
+      "fit_pixel_count": 143606
+    },
+    "courtyard": {
+      "scale_gt_over_omega_ref0_median": 6.130683898925781,
+      "fit_reference_index": 0,
+      "fit_pixel_count": 128916
+    },
+    "delivery_area": {
+      "scale_gt_over_omega_ref0_median": 7.772397518157959,
+      "fit_reference_index": 0,
+      "fit_pixel_count": 154386
+    },
+    "kicker": {
+      "scale_gt_over_omega_ref0_median": 2.643660545349121,
+      "fit_reference_index": 0,
+      "fit_pixel_count": 144550
+    }
+  },
+  "mean_metrics_by_method": {
+    "omega_raw": {
+      "coverage": 1.0,
+      "mae": 0.05310352798551321,
+      "rmse": 0.14249769374728202,
+      "abs_rel": 0.01321953972801566,
+      "n_heldout_frames": 20
+    },
+    "c1_constant": {
+      "coverage": 1.0,
+      "mae": 0.10825334871187806,
+      "rmse": 0.557259073574096,
+      "abs_rel": 0.015954346861690283,
+      "n_heldout_frames": 20
+    },
+    "c2_minmax": {
+      "coverage": 1.0,
+      "mae": 0.5379756186157465,
+      "rmse": 0.8524142727255821,
+      "abs_rel": 0.1274358531460166,
+      "n_heldout_frames": 20
+    },
+    "c3_percentile": {
+      "coverage": 1.0,
+      "mae": 0.3634544523432851,
+      "rmse": 0.745132853090763,
+      "abs_rel": 0.07142195701599122,
+      "n_heldout_frames": 20
+    },
+    "c4_rank": {
+      "coverage": 1.0,
+      "mae": 0.24751830101013184,
+      "rmse": 0.6776750158518553,
+      "abs_rel": 0.0520306752063334,
+      "n_heldout_frames": 20
+    },
+    "c3_gtcamera": {
+      "coverage": 1.0,
+      "mae": 0.3670688631013036,
+      "rmse": 0.7473416224122047,
+      "abs_rel": 0.07202322985976935,
+      "n_heldout_frames": 20
+    }
+  },
+  "rows": 120
+}

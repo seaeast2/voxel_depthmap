@@ -1,0 +1,12 @@
+exported_scene=office heldout_plys=20 aggregate_plys=5
+exported_scene=pipes heldout_plys=20 aggregate_plys=5
+exported_scene=courtyard heldout_plys=20 aggregate_plys=5
+exported_scene=delivery_area heldout_plys=20 aggregate_plys=5
+exported_scene=kicker heldout_plys=20 aggregate_plys=5
+{
+  "status": "completed",
+  "per_reference_plys": 100,
+  "scene_aggregate_plys": 25,
+  "oracle_plys": 20,
+  "output_root": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds"
+}

@@ -1,0 +1,69 @@
+{
+  "run_id": "VFUSE-20261124-003",
+  "stage_id": "P0_20261124-001",
+  "scenes": [
+    {
+      "scene": "courtyard",
+      "name": "courtyard_dslr_depth.7z",
+      "size_bytes": 428289105,
+      "sha256": "c0a149fd43c3f3aaad2ea12cd070613ceb8b4835f115eeb2557cd8212c862639",
+      "url": "https://eth3d.ethz.ch/data/courtyard_dslr_depth.7z"
+    },
+    {
+      "scene": "courtyard",
+      "name": "courtyard_dslr_jpg.7z",
+      "size_bytes": 425492376,
+      "sha256": "91addd6e1f8be6d68ebac1c967ca934c06e8acaeee002d7cd9480fc223a37aef",
+      "url": "https://eth3d.ethz.ch/data/courtyard_dslr_jpg.7z"
+    },
+    {
+      "scene": "courtyard",
+      "name": "courtyard_dslr_undistorted.7z",
+      "size_bytes": 500990569,
+      "sha256": "9dc3126363bc89b229e2b564c7725f1b858a52b46a5452ccfb9e9eb8e72ba26d",
+      "url": "https://eth3d.ethz.ch/data/courtyard_dslr_undistorted.7z"
+    },
+    {
+      "scene": "delivery_area",
+      "name": "delivery_area_dslr_depth.7z",
+      "size_bytes": 388144128,
+      "sha256": "e6edc65b5b6de343876382040c839405eef79abed33319aa377883f4ddc5775a",
+      "url": "https://eth3d.ethz.ch/data/delivery_area_dslr_depth.7z"
+    },
+    {
+      "scene": "delivery_area",
+      "name": "delivery_area_dslr_jpg.7z",
+      "size_bytes": 372958192,
+      "sha256": "f8190ebdf670935fb93ed2a6e66210a2bcc4633b6f698033855a75cac254f973",
+      "url": "https://eth3d.ethz.ch/data/delivery_area_dslr_jpg.7z"
+    },
+    {
+      "scene": "delivery_area",
+      "name": "delivery_area_dslr_undistorted.7z",
+      "size_bytes": 478076254,
+      "sha256": "9acf5efec4b99a69b89ebb87b403259730756c1a510307c92e5f2ce2d22658f3",
+      "url": "https://eth3d.ethz.ch/data/delivery_area_dslr_undistorted.7z"
+    },
+    {
+      "scene": "kicker",
+      "name": "kicker_dslr_depth.7z",
+      "size_bytes": 415014798,
+      "sha256": "fbb7f269604edf78a3f28733d6aa4153d829c41d0fc3dc325d7d4d0c93d0325f",
+      "url": "https://eth3d.ethz.ch/data/kicker_dslr_depth.7z"
+    },
+    {
+      "scene": "kicker",
+      "name": "kicker_dslr_jpg.7z",
+      "size_bytes": 408604363,
+      "sha256": "b0d0d73accc6fc8fa87db81fc8053d4c27ca5cbb776982533f30149d929fe493",
+      "url": "https://eth3d.ethz.ch/data/kicker_dslr_jpg.7z"
+    },
+    {
+      "scene": "kicker",
+      "name": "kicker_dslr_undistorted.7z",
+      "size_bytes": 433074686,
+      "sha256": "cc4ee2c119f296dc8f8fbce97fd76a25ce2f21d983bf81b2ca0f7849949fc070",
+      "url": "https://eth3d.ethz.ch/data/kicker_dslr_undistorted.7z"
+    }
+  ]
+}

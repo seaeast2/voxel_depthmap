@@ -1,0 +1,562 @@
+{
+  "run_id": "VFUSE-20261124-003",
+  "stage_id": "P1_20261124-001",
+  "status": "completed",
+  "scenes": [
+    {
+      "scene": "office",
+      "frame_manifest": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P1_20261124-001/results/frames/office.json",
+      "source_domain": "distorted THIN_PRISM_FISHEYE laser depth",
+      "target_domain": "undistorted PINHOLE image coordinates",
+      "target_grid": [
+        336,
+        512
+      ],
+      "remapping": "COLMAP ThinPrismFisheye forward distortion + valid-weighted bilinear remap + valid-weighted area resize",
+      "laser_gt_opened_after": "RGB frame selection was frozen before this stage; initial Omega caches were completed before this GT extraction",
+      "output_npz": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P1_20261124-001/results/gt_pinhole/office/gt_depth_undistorted.npz",
+      "output_npz_sha256": "4cd6898f32e10c968ae192ba7db8c95db6829dbe1c3fc7c319ba2be6accd9491",
+      "members": [
+        {
+          "frame_id": "DSC_0219.JPG",
+          "gt_path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P0_20261124-001/assets/datasets/eth3d_laser/extracted_gt/office/ground_truth_depth/dslr_images/DSC_0219.JPG",
+          "gt_sha256": "67422ce1e8716fd688fa85173d12fb4b636d981d01e2a531d167b895d85000f2",
+          "gt_size_bytes": 97542144,
+          "source_valid_fraction": 0.17909731407995297,
+          "resampled_valid_pixels": 141517,
+          "resampled_valid_fraction": 0.8226202101934523,
+          "undistorted_principal_point": [
+            3127.19,
+            2066.98
+          ],
+          "distorted_principal_point": [
+            3040.23,
+            2010.15
+          ],
+          "distortion_camera_model": "THIN_PRISM_FISHEYE",
+          "center_mapping_error_px": 0.0
+        },
+        {
+          "frame_id": "DSC_0220.JPG",
+          "gt_path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P0_20261124-001/assets/datasets/eth3d_laser/extracted_gt/office/ground_truth_depth/dslr_images/DSC_0220.JPG",
+          "gt_sha256": "59cbb9eb8c77aa0c725f80ba15646943cb74c9fb7891ec6672743f1ea5c4fb5d",
+          "gt_size_bytes": 97542144,
+          "source_valid_fraction": 0.2594134080136684,
+          "resampled_valid_pixels": 139935,
+          "resampled_valid_fraction": 0.8134242466517857,
+          "undistorted_principal_point": [
+            3127.19,
+            2066.98
+          ],
+          "distorted_principal_point": [
+            3040.23,
+            2010.15
+          ],
+          "distortion_camera_model": "THIN_PRISM_FISHEYE",
+          "center_mapping_error_px": 0.0
+        },
+        {
+          "frame_id": "DSC_0229.JPG",
+          "gt_path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P0_20261124-001/assets/datasets/eth3d_laser/extracted_gt/office/ground_truth_depth/dslr_images/DSC_0229.JPG",
+          "gt_sha256": "2b13fbdd5d433efbd9bb81f7cbca5248b4818d2c8dbeda7cde5acddbc4ed712e",
+          "gt_size_bytes": 97542144,
+          "source_valid_fraction": 0.24831974166981607,
+          "resampled_valid_pixels": 142707,
+          "resampled_valid_fraction": 0.8295375279017857,
+          "undistorted_principal_point": [
+            3127.19,
+            2066.98
+          ],
+          "distorted_principal_point": [
+            3040.23,
+            2010.15
+          ],
+          "distortion_camera_model": "THIN_PRISM_FISHEYE",
+          "center_mapping_error_px": 0.0
+        },
+        {
+          "frame_id": "DSC_0250.JPG",
+          "gt_path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P0_20261124-001/assets/datasets/eth3d_laser/extracted_gt/office/ground_truth_depth/dslr_images/DSC_0250.JPG",
+          "gt_sha256": "1b6254b76943821dfbacc4918fe80ba037d755bdeb87807ad2189a59dde7f9bd",
+          "gt_size_bytes": 97542144,
+          "source_valid_fraction": 0.11560303616045184,
+          "resampled_valid_pixels": 135612,
+          "resampled_valid_fraction": 0.7882952008928571,
+          "undistorted_principal_point": [
+            3127.19,
+            2066.98
+          ],
+          "distorted_principal_point": [
+            3040.23,
+            2010.15
+          ],
+          "distortion_camera_model": "THIN_PRISM_FISHEYE",
+          "center_mapping_error_px": 0.0
+        },
+        {
+          "frame_id": "DSC_0251.JPG",
+          "gt_path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P0_20261124-001/assets/datasets/eth3d_laser/extracted_gt/office/ground_truth_depth/dslr_images/DSC_0251.JPG",
+          "gt_sha256": "fd9bf5d2ee7eb486a424490b9da706ab23212a4a7967bf5dc234a3a3f9b04175",
+          "gt_size_bytes": 97542144,
+          "source_valid_fraction": 0.11831152696418074,
+          "resampled_valid_pixels": 135701,
+          "resampled_valid_fraction": 0.7888125465029762,
+          "undistorted_principal_point": [
+            3127.19,
+            2066.98
+          ],
+          "distorted_principal_point": [
+            3040.23,
+            2010.15
+          ],
+          "distortion_camera_model": "THIN_PRISM_FISHEYE",
+          "center_mapping_error_px": 0.0
+        }
+      ]
+    },
+    {
+      "scene": "pipes",
+      "frame_manifest": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P1_20261124-001/results/frames/pipes.json",
+      "source_domain": "distorted THIN_PRISM_FISHEYE laser depth",
+      "target_domain": "undistorted PINHOLE image coordinates",
+      "target_grid": [
+        336,
+        512
+      ],
+      "remapping": "COLMAP ThinPrismFisheye forward distortion + valid-weighted bilinear remap + valid-weighted area resize",
+      "laser_gt_opened_after": "RGB frame selection was frozen before this stage; initial Omega caches were completed before this GT extraction",
+      "output_npz": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P1_20261124-001/results/gt_pinhole/pipes/gt_depth_undistorted.npz",
+      "output_npz_sha256": "776e408bd81aa11c9581a5bb6d28801f589aa9c91a701c154d731f345fb54d03",
+      "members": [
+        {
+          "frame_id": "DSC_0634.JPG",
+          "gt_path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P0_20261124-001/assets/datasets/eth3d_laser/extracted_gt/pipes/ground_truth_depth/dslr_images/DSC_0634.JPG",
+          "gt_sha256": "d7214a20e48d5990b7b2d1aa18fce8a3893d194c1b231e38f3842a9f2effc335",
+          "gt_size_bytes": 97542144,
+          "source_valid_fraction": 0.09330457202170991,
+          "resampled_valid_pixels": 143606,
+          "resampled_valid_fraction": 0.8347632998511905,
+          "undistorted_principal_point": [
+            3119.2,
+            2057.75
+          ],
+          "distorted_principal_point": [
+            3032.95,
+            2003.59
+          ],
+          "distortion_camera_model": "THIN_PRISM_FISHEYE",
+          "center_mapping_error_px": 0.0
+        },
+        {
+          "frame_id": "DSC_0635.JPG",
+          "gt_path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P0_20261124-001/assets/datasets/eth3d_laser/extracted_gt/pipes/ground_truth_depth/dslr_images/DSC_0635.JPG",
+          "gt_sha256": "9a0fb7eb1a1d095a76341168a25e8bb602dc95afa3f271e558bf0f1a2d10509a",
+          "gt_size_bytes": 97542144,
+          "source_valid_fraction": 0.09378231423742336,
+          "resampled_valid_pixels": 147038,
+          "resampled_valid_fraction": 0.8547130766369048,
+          "undistorted_principal_point": [
+            3119.2,
+            2057.75
+          ],
+          "distorted_principal_point": [
+            3032.95,
+            2003.59
+          ],
+          "distortion_camera_model": "THIN_PRISM_FISHEYE",
+          "center_mapping_error_px": 0.0
+        },
+        {
+          "frame_id": "DSC_0636.JPG",
+          "gt_path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P0_20261124-001/assets/datasets/eth3d_laser/extracted_gt/pipes/ground_truth_depth/dslr_images/DSC_0636.JPG",
+          "gt_sha256": "f514b9b5d710aeae046c2e16f7fd95757e0dadd26d892f0159edc64a1e17d371",
+          "gt_size_bytes": 97542144,
+          "source_valid_fraction": 0.0981983746430671,
+          "resampled_valid_pixels": 144538,
+          "resampled_valid_fraction": 0.8401808965773809,
+          "undistorted_principal_point": [
+            3119.2,
+            2057.75
+          ],
+          "distorted_principal_point": [
+            3032.95,
+            2003.59
+          ],
+          "distortion_camera_model": "THIN_PRISM_FISHEYE",
+          "center_mapping_error_px": 0.0
+        },
+        {
+          "frame_id": "DSC_0644.JPG",
+          "gt_path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P0_20261124-001/assets/datasets/eth3d_laser/extracted_gt/pipes/ground_truth_depth/dslr_images/DSC_0644.JPG",
+          "gt_sha256": "661b71d45f320bb9a15c85bf8ceb32bd0199da6bba67da498af18faab6e6b3b6",
+          "gt_size_bytes": 97542144,
+          "source_valid_fraction": 0.08660818445819686,
+          "resampled_valid_pixels": 135398,
+          "resampled_valid_fraction": 0.7870512462797619,
+          "undistorted_principal_point": [
+            3119.2,
+            2057.75
+          ],
+          "distorted_principal_point": [
+            3032.95,
+            2003.59
+          ],
+          "distortion_camera_model": "THIN_PRISM_FISHEYE",
+          "center_mapping_error_px": 0.0
+        },
+        {
+          "frame_id": "DSC_0645.JPG",
+          "gt_path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P0_20261124-001/assets/datasets/eth3d_laser/extracted_gt/pipes/ground_truth_depth/dslr_images/DSC_0645.JPG",
+          "gt_sha256": "52c57c9289011a560c160a9eb007de57e3518fd69c11974f0d9935565e9766d8",
+          "gt_size_bytes": 97542144,
+          "source_valid_fraction": 0.08826498626070799,
+          "resampled_valid_pixels": 125421,
+          "resampled_valid_fraction": 0.7290562220982143,
+          "undistorted_principal_point": [
+            3119.2,
+            2057.75
+          ],
+          "distorted_principal_point": [
+            3032.95,
+            2003.59
+          ],
+          "distortion_camera_model": "THIN_PRISM_FISHEYE",
+          "center_mapping_error_px": 0.0
+        }
+      ]
+    },
+    {
+      "scene": "courtyard",
+      "frame_manifest": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P1_20261124-001/results/frames/courtyard.json",
+      "source_domain": "distorted THIN_PRISM_FISHEYE laser depth",
+      "target_domain": "undistorted PINHOLE image coordinates",
+      "target_grid": [
+        336,
+        512
+      ],
+      "remapping": "COLMAP ThinPrismFisheye forward distortion + valid-weighted bilinear remap + valid-weighted area resize",
+      "laser_gt_opened_after": "RGB frame selection was frozen before this stage; initial Omega caches were completed before this GT extraction",
+      "output_npz": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P1_20261124-001/results/gt_pinhole/courtyard/gt_depth_undistorted.npz",
+      "output_npz_sha256": "0e66f92322cbfc46892cbba7fd246236ed6b9e52c1e937a346672a6834d6372c",
+      "members": [
+        {
+          "frame_id": "DSC_0288.JPG",
+          "gt_path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P0_20261124-001/assets/datasets/eth3d_laser/extracted_gt/courtyard/ground_truth_depth/dslr_images/DSC_0288.JPG",
+          "gt_sha256": "27f2468e5a70277bcedf1677a70a63a4863e7c8c04fa8502bf8f801b40b55b4e",
+          "gt_size_bytes": 97542144,
+          "source_valid_fraction": 0.08625490126606199,
+          "resampled_valid_pixels": 128916,
+          "resampled_valid_fraction": 0.7493722098214286,
+          "undistorted_principal_point": [
+            3115.16,
+            2064.73
+          ],
+          "distorted_principal_point": [
+            3036.34,
+            2013.3
+          ],
+          "distortion_camera_model": "THIN_PRISM_FISHEYE",
+          "center_mapping_error_px": 0.0
+        },
+        {
+          "frame_id": "DSC_0289.JPG",
+          "gt_path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P0_20261124-001/assets/datasets/eth3d_laser/extracted_gt/courtyard/ground_truth_depth/dslr_images/DSC_0289.JPG",
+          "gt_sha256": "6ebbe29c6813ce67de42d0d65c33f765830a0606c25d9fc0027c37f2ea828a92",
+          "gt_size_bytes": 97542144,
+          "source_valid_fraction": 0.07740592620149912,
+          "resampled_valid_pixels": 124407,
+          "resampled_valid_fraction": 0.7231619698660714,
+          "undistorted_principal_point": [
+            3115.16,
+            2064.73
+          ],
+          "distorted_principal_point": [
+            3036.34,
+            2013.3
+          ],
+          "distortion_camera_model": "THIN_PRISM_FISHEYE",
+          "center_mapping_error_px": 0.0
+        },
+        {
+          "frame_id": "DSC_0290.JPG",
+          "gt_path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P0_20261124-001/assets/datasets/eth3d_laser/extracted_gt/courtyard/ground_truth_depth/dslr_images/DSC_0290.JPG",
+          "gt_sha256": "d1877761acc8a5bbb5a6696d2e0c9410a8a26141bed4fc5ef0ca25d2e600a8ba",
+          "gt_size_bytes": 97542144,
+          "source_valid_fraction": 0.06917559655034854,
+          "resampled_valid_pixels": 119566,
+          "resampled_valid_fraction": 0.6950218563988095,
+          "undistorted_principal_point": [
+            3115.16,
+            2064.73
+          ],
+          "distorted_principal_point": [
+            3036.34,
+            2013.3
+          ],
+          "distortion_camera_model": "THIN_PRISM_FISHEYE",
+          "center_mapping_error_px": 0.0
+        },
+        {
+          "frame_id": "DSC_0291.JPG",
+          "gt_path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P0_20261124-001/assets/datasets/eth3d_laser/extracted_gt/courtyard/ground_truth_depth/dslr_images/DSC_0291.JPG",
+          "gt_sha256": "d31dcf7277cf4e285e96a13afa45f0b27341fd4862c73ad1caf7282767855fec",
+          "gt_size_bytes": 97542144,
+          "source_valid_fraction": 0.06756451857363316,
+          "resampled_valid_pixels": 121073,
+          "resampled_valid_fraction": 0.7037818545386905,
+          "undistorted_principal_point": [
+            3115.16,
+            2064.73
+          ],
+          "distorted_principal_point": [
+            3036.34,
+            2013.3
+          ],
+          "distortion_camera_model": "THIN_PRISM_FISHEYE",
+          "center_mapping_error_px": 0.0
+        },
+        {
+          "frame_id": "DSC_0292.JPG",
+          "gt_path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P0_20261124-001/assets/datasets/eth3d_laser/extracted_gt/courtyard/ground_truth_depth/dslr_images/DSC_0292.JPG",
+          "gt_sha256": "e8b2aac39154eb99f4e88e8d5c27a360aa911c54596cfeee09c5d39bb941105c",
+          "gt_size_bytes": 97542144,
+          "source_valid_fraction": 0.06979272467088687,
+          "resampled_valid_pixels": 123421,
+          "resampled_valid_fraction": 0.7174304780505952,
+          "undistorted_principal_point": [
+            3115.16,
+            2064.73
+          ],
+          "distorted_principal_point": [
+            3036.34,
+            2013.3
+          ],
+          "distortion_camera_model": "THIN_PRISM_FISHEYE",
+          "center_mapping_error_px": 0.0
+        }
+      ]
+    },
+    {
+      "scene": "delivery_area",
+      "frame_manifest": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P1_20261124-001/results/frames/delivery_area.json",
+      "source_domain": "distorted THIN_PRISM_FISHEYE laser depth",
+      "target_domain": "undistorted PINHOLE image coordinates",
+      "target_grid": [
+        336,
+        512
+      ],
+      "remapping": "COLMAP ThinPrismFisheye forward distortion + valid-weighted bilinear remap + valid-weighted area resize",
+      "laser_gt_opened_after": "RGB frame selection was frozen before this stage; initial Omega caches were completed before this GT extraction",
+      "output_npz": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P1_20261124-001/results/gt_pinhole/delivery_area/gt_depth_undistorted.npz",
+      "output_npz_sha256": "7988a4d4ade65bc8d22ebdf0a94298e448ec593a4a2085591852c457be266e7a",
+      "members": [
+        {
+          "frame_id": "DSC_0700.JPG",
+          "gt_path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P0_20261124-001/assets/datasets/eth3d_laser/extracted_gt/delivery_area/ground_truth_depth/dslr_images/DSC_0700.JPG",
+          "gt_sha256": "5f96b6c3666e714b59d0a7f8a436682edc6ed1d0fc2edf230908a8d214a17a1e",
+          "gt_size_bytes": 97542144,
+          "source_valid_fraction": 0.09654448440255732,
+          "resampled_valid_pixels": 154386,
+          "resampled_valid_fraction": 0.8974260602678571,
+          "undistorted_principal_point": [
+            3117.24,
+            2064.07
+          ],
+          "distorted_principal_point": [
+            3036.9,
+            2012.66
+          ],
+          "distortion_camera_model": "THIN_PRISM_FISHEYE",
+          "center_mapping_error_px": 0.0
+        },
+        {
+          "frame_id": "DSC_0701.JPG",
+          "gt_path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P0_20261124-001/assets/datasets/eth3d_laser/extracted_gt/delivery_area/ground_truth_depth/dslr_images/DSC_0701.JPG",
+          "gt_sha256": "1ce54a0964301b1aa82e544b715cd351eea53580b82b6e4c91a689a61ac3fa21",
+          "gt_size_bytes": 97542144,
+          "source_valid_fraction": 0.09667255212270093,
+          "resampled_valid_pixels": 151337,
+          "resampled_valid_fraction": 0.8797026134672619,
+          "undistorted_principal_point": [
+            3117.24,
+            2064.07
+          ],
+          "distorted_principal_point": [
+            3036.9,
+            2012.66
+          ],
+          "distortion_camera_model": "THIN_PRISM_FISHEYE",
+          "center_mapping_error_px": 0.0
+        },
+        {
+          "frame_id": "DSC_0702.JPG",
+          "gt_path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P0_20261124-001/assets/datasets/eth3d_laser/extracted_gt/delivery_area/ground_truth_depth/dslr_images/DSC_0702.JPG",
+          "gt_sha256": "9bdbed9c15637edea8886fe4f1d4ce0143ef76667017b34defa3ff7ed8da7af2",
+          "gt_size_bytes": 97542144,
+          "source_valid_fraction": 0.09232255546894684,
+          "resampled_valid_pixels": 146807,
+          "resampled_valid_fraction": 0.8533703031994048,
+          "undistorted_principal_point": [
+            3117.24,
+            2064.07
+          ],
+          "distorted_principal_point": [
+            3036.9,
+            2012.66
+          ],
+          "distortion_camera_model": "THIN_PRISM_FISHEYE",
+          "center_mapping_error_px": 0.0
+        },
+        {
+          "frame_id": "DSC_0715.JPG",
+          "gt_path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P0_20261124-001/assets/datasets/eth3d_laser/extracted_gt/delivery_area/ground_truth_depth/dslr_images/DSC_0715.JPG",
+          "gt_sha256": "c4fcf565dd58a4a649f9948bda75589baf43ed8eec529df3f8b39c92f90b9ea4",
+          "gt_size_bytes": 97542144,
+          "source_valid_fraction": 0.16202838436686404,
+          "resampled_valid_pixels": 148650,
+          "resampled_valid_fraction": 0.8640834263392857,
+          "undistorted_principal_point": [
+            3117.24,
+            2064.07
+          ],
+          "distorted_principal_point": [
+            3036.9,
+            2012.66
+          ],
+          "distortion_camera_model": "THIN_PRISM_FISHEYE",
+          "center_mapping_error_px": 0.0
+        },
+        {
+          "frame_id": "DSC_0718.JPG",
+          "gt_path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P0_20261124-001/assets/datasets/eth3d_laser/extracted_gt/delivery_area/ground_truth_depth/dslr_images/DSC_0718.JPG",
+          "gt_sha256": "eacc50995c4531d27a2e0f008aff5dbd11d5d0c04cd3c14eeec1af37ba584ceb",
+          "gt_size_bytes": 97542144,
+          "source_valid_fraction": 0.15045775495769295,
+          "resampled_valid_pixels": 154595,
+          "resampled_valid_fraction": 0.8986409505208334,
+          "undistorted_principal_point": [
+            3117.24,
+            2064.07
+          ],
+          "distorted_principal_point": [
+            3036.9,
+            2012.66
+          ],
+          "distortion_camera_model": "THIN_PRISM_FISHEYE",
+          "center_mapping_error_px": 0.0
+        }
+      ]
+    },
+    {
+      "scene": "kicker",
+      "frame_manifest": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P1_20261124-001/results/frames/kicker.json",
+      "source_domain": "distorted THIN_PRISM_FISHEYE laser depth",
+      "target_domain": "undistorted PINHOLE image coordinates",
+      "target_grid": [
+        336,
+        512
+      ],
+      "remapping": "COLMAP ThinPrismFisheye forward distortion + valid-weighted bilinear remap + valid-weighted area resize",
+      "laser_gt_opened_after": "RGB frame selection was frozen before this stage; initial Omega caches were completed before this GT extraction",
+      "output_npz": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P1_20261124-001/results/gt_pinhole/kicker/gt_depth_undistorted.npz",
+      "output_npz_sha256": "39fb7f93cf2251f754c6eaeacc741af3c506c54809024e28335c92b4b6053b34",
+      "members": [
+        {
+          "frame_id": "DSC_6495.JPG",
+          "gt_path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P0_20261124-001/assets/datasets/eth3d_laser/extracted_gt/kicker/ground_truth_depth/dslr_images/DSC_6495.JPG",
+          "gt_sha256": "689dbb6c2f54accbefc11f6e77d241f7d95a59e488e63c0158556ddcbd23a4db",
+          "gt_size_bytes": 97542144,
+          "source_valid_fraction": 0.1288517094723692,
+          "resampled_valid_pixels": 144550,
+          "resampled_valid_fraction": 0.8402506510416666,
+          "undistorted_principal_point": [
+            3121.33,
+            2067.07
+          ],
+          "distorted_principal_point": [
+            3039.41,
+            2014.61
+          ],
+          "distortion_camera_model": "THIN_PRISM_FISHEYE",
+          "center_mapping_error_px": 0.0
+        },
+        {
+          "frame_id": "DSC_6510.JPG",
+          "gt_path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P0_20261124-001/assets/datasets/eth3d_laser/extracted_gt/kicker/ground_truth_depth/dslr_images/DSC_6510.JPG",
+          "gt_sha256": "3a04870a3146980d0a1be89f9a863ebf6ec09c8760fae13ea5de42cf4d20dd97",
+          "gt_size_bytes": 97542144,
+          "source_valid_fraction": 0.08088151107279332,
+          "resampled_valid_pixels": 135985,
+          "resampled_valid_fraction": 0.7904634021577381,
+          "undistorted_principal_point": [
+            3121.33,
+            2067.07
+          ],
+          "distorted_principal_point": [
+            3039.41,
+            2014.61
+          ],
+          "distortion_camera_model": "THIN_PRISM_FISHEYE",
+          "center_mapping_error_px": 0.0
+        },
+        {
+          "frame_id": "DSC_6511.JPG",
+          "gt_path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P0_20261124-001/assets/datasets/eth3d_laser/extracted_gt/kicker/ground_truth_depth/dslr_images/DSC_6511.JPG",
+          "gt_sha256": "f8b6511f0436eba04a76b05c2c27d08ee57ab2f287d93f54a36fa53a01eebd7d",
+          "gt_size_bytes": 97542144,
+          "source_valid_fraction": 0.07610039820326278,
+          "resampled_valid_pixels": 144349,
+          "resampled_valid_fraction": 0.8390822637648809,
+          "undistorted_principal_point": [
+            3121.33,
+            2067.07
+          ],
+          "distorted_principal_point": [
+            3039.41,
+            2014.61
+          ],
+          "distortion_camera_model": "THIN_PRISM_FISHEYE",
+          "center_mapping_error_px": 0.0
+        },
+        {
+          "frame_id": "DSC_6512.JPG",
+          "gt_path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P0_20261124-001/assets/datasets/eth3d_laser/extracted_gt/kicker/ground_truth_depth/dslr_images/DSC_6512.JPG",
+          "gt_sha256": "ea287c28c459afebd476257bf59152a413d136c3dd199acc91ee7a406e420102",
+          "gt_size_bytes": 97542144,
+          "source_valid_fraction": 0.07108094732877719,
+          "resampled_valid_pixels": 144392,
+          "resampled_valid_fraction": 0.8393322172619048,
+          "undistorted_principal_point": [
+            3121.33,
+            2067.07
+          ],
+          "distorted_principal_point": [
+            3039.41,
+            2014.61
+          ],
+          "distortion_camera_model": "THIN_PRISM_FISHEYE",
+          "center_mapping_error_px": 0.0
+        },
+        {
+          "frame_id": "DSC_6513.JPG",
+          "gt_path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P0_20261124-001/assets/datasets/eth3d_laser/extracted_gt/kicker/ground_truth_depth/dslr_images/DSC_6513.JPG",
+          "gt_sha256": "3bb30782112cad9a51723ed1ef43b7b26f1fde1129c4d67af781f347158a0552",
+          "gt_size_bytes": 97542144,
+          "source_valid_fraction": 0.06327984752928949,
+          "resampled_valid_pixels": 138273,
+          "resampled_valid_fraction": 0.8037632533482143,
+          "undistorted_principal_point": [
+            3121.33,
+            2067.07
+          ],
+          "distorted_principal_point": [
+            3039.41,
+            2014.61
+          ],
+          "distortion_camera_model": "THIN_PRISM_FISHEYE",
+          "center_mapping_error_px": 0.0
+        }
+      ]
+    }
+  ]
+}

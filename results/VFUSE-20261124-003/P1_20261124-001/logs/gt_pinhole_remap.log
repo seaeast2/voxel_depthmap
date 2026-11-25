@@ -1,0 +1,6 @@
+remapped_scene=office frames=5 output=/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P1_20261124-001/results/gt_pinhole/office/gt_depth_undistorted.npz
+remapped_scene=pipes frames=5 output=/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P1_20261124-001/results/gt_pinhole/pipes/gt_depth_undistorted.npz
+remapped_scene=courtyard frames=5 output=/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P1_20261124-001/results/gt_pinhole/courtyard/gt_depth_undistorted.npz
+remapped_scene=delivery_area frames=5 output=/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P1_20261124-001/results/gt_pinhole/delivery_area/gt_depth_undistorted.npz
+remapped_scene=kicker frames=5 output=/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P1_20261124-001/results/gt_pinhole/kicker/gt_depth_undistorted.npz
+/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P1_20261124-001/results/gt_pinhole_remap_audit.json

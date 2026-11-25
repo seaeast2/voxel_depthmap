@@ -1,0 +1,32 @@
+{
+  "run_id": "VFUSE-20261124-003",
+  "stage_id": "P4_20261124-001",
+  "scene": "pipes",
+  "condition": "c3_percentile",
+  "camera_source": "ETH3D undistorted PINHOLE calibration + COLMAP pose",
+  "scale_fit_reference_index": 0,
+  "scale_median_gt_over_omega_ref0": 2.361809730529785,
+  "scale_fit_pixel_count": 143606,
+  "translation_conversion": "GT metric camera translations divided by ref-0 depth scale to match Omega depth units",
+  "intrinsics_resize": "pixel-center convention: (c+0.5)*scale-0.5; focal multiplied by per-axis resize",
+  "gt_depth_used_for_reference0_scale": true,
+  "heldout_gt_depth_read_by_inference": false,
+  "confidence_floor": 0.0001,
+  "checkpoint_sha256": "6c78b5a41cb59de0fea171af86c47600194ab73b3ed1a81eccd662d633e74ea0",
+  "input_npz_sha256": "c4d4a324ee1cf5a4d11326d20b9ec885acd50162ada2c75085842d77b8d323e7",
+  "reference_index": 2,
+  "frame": "DSC_0636.JPG",
+  "ordered_frame_ids": [
+    "DSC_0636.JPG",
+    "DSC_0644.JPG",
+    "DSC_0645.JPG",
+    "DSC_0634.JPG",
+    "DSC_0635.JPG"
+  ],
+  "status": "completed",
+  "nonpositive_fused_pixel_count": 0,
+  "seconds": 0.09144512499915436,
+  "output_npz": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P4_20261124-001/results/inference/pipes/c3_gtcamera/ref_02/v_fuse.npz",
+  "output_npz_sha256": "d2f35bf0074ae9f402205e4c884b08562cc2a2f8b160dbaebce14182b23f17c6",
+  "gpu": "NVIDIA GeForce RTX 5060"
+}

@@ -1,0 +1,11 @@
+completed=delivery_area/c1_constant/ref00 seconds=0.455
+completed=delivery_area/c1_constant/ref01 seconds=0.048
+completed=delivery_area/c1_constant/ref02 seconds=0.048
+completed=delivery_area/c1_constant/ref03 seconds=0.047
+completed=delivery_area/c1_constant/ref04 seconds=0.050
+Traceback (most recent call last):
+  File "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P3_20261124-001/code/run_vfuse_ablation5.py", line 147, in <module>
+    main()
+  File "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P3_20261124-001/code/run_vfuse_ablation5.py", line 117, in main
+    raise ValueError(f"invalid V-FUSE output {args.scene}/{condition}/ref{ref}")
+ValueError: invalid V-FUSE output delivery_area/c2_minmax/ref0

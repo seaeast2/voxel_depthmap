@@ -1,0 +1,36 @@
+{
+  "run_id": "VFUSE-20261124-003",
+  "stage_id": "P6_20261124-001",
+  "images": [
+    {
+      "path": "results/VFUSE-20261124-003/P6_20261124-001/results/visualizations/aggregate_rgb_comparison.png",
+      "size_bytes": 3469159,
+      "sha256": "afdaf227712477761c42fc3bd0b4956ce97bd8ec1775694e7501c51f5a516c3c",
+      "description": "RGB-colored PLY preview; sampled points; PCA rotation for display only"
+    },
+    {
+      "path": "results/VFUSE-20261124-003/P6_20261124-001/results/visualizations/aggregate_rgb_comparison_dark.png",
+      "size_bytes": 3493821,
+      "sha256": "278eff9319252c4a32235ad8e53fa3a4f575ef7adfb9468e56ee8ebc9f7dde71",
+      "description": "RGB-colored PLY preview; sampled points; PCA rotation for display only"
+    },
+    {
+      "path": "results/VFUSE-20261124-003/P6_20261124-001/results/visualizations/aggregate_rgb_comparison_detail.png",
+      "size_bytes": 4508449,
+      "sha256": "2089cdefe479b8445625882cd9a8a86a014b4b5740f4ee4222b16b55d9bd6dae",
+      "description": "RGB-colored PLY preview; sampled points; PCA rotation for display only"
+    },
+    {
+      "path": "results/VFUSE-20261124-003/P6_20261124-001/results/visualizations/delivery_area_comparison_dark.png",
+      "size_bytes": 462997,
+      "sha256": "aed6555f42f88901f0c0ceda71cb35f86bafb0db155e7ae5bfd9a4a377efb7ff",
+      "description": "RGB-colored PLY preview; sampled points; PCA rotation for display only"
+    },
+    {
+      "path": "results/VFUSE-20261124-003/P6_20261124-001/results/visualizations/delivery_area_comparison_detail.png",
+      "size_bytes": 458099,
+      "sha256": "57b5710c4f147c2ab6e65978f858d79e1b71e73d3f1e9cce222a9e0c10276365",
+      "description": "RGB-colored PLY preview; sampled points; PCA rotation for display only"
+    }
+  ]
+}

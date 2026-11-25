@@ -1,0 +1,13 @@
+completed=delivery_area/c1_constant/ref00 seconds=0.458
+completed=delivery_area/c1_constant/ref01 seconds=0.048
+completed=delivery_area/c1_constant/ref02 seconds=0.051
+completed=delivery_area/c1_constant/ref03 seconds=0.049
+completed=delivery_area/c1_constant/ref04 seconds=0.048
+DEBUG c2_minmax 0 depth_nonfinite 0 depth_minmax (-0.048230528831481934, 2.8986785411834717) conf_nonfinite 0 conf_minmax (0.0, 1.0) bounds_nonfinite 0
+Traceback (most recent call last):
+  File "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P3_20261124-003/code/run_vfuse_ablation5.py", line 148, in <module>
+    main()
+  File "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P3_20261124-003/code/run_vfuse_ablation5.py", line 118, in main
+    print("DEBUG", condition, ref, "depth_nonfinite", int((~np.isfinite(fused)).sum()), "depth_minmax", (float(np.nanmin(fused)), float(np.nanmax(fused))), "conf_nonfinite", int((~np.isfinite(fused_conf)).sum()), "conf_minmax", (float(np.nanmin(fused_conf)), float(np.nanmax(fused_conf))), "bounds_nonfinite", int((~np.isfinite(bounds)).sum()), flush=True); raise ValueError(f"invalid V-FUSE output {args.scene}/{condition}/ref{ref}")
+                                                                                                                                                                                                                                                                                                                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid V-FUSE output delivery_area/c2_minmax/ref0

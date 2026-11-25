@@ -1,0 +1,71 @@
+{
+  "run_id": "VFUSE-20261124-003",
+  "stage_id": "P3_20261124-004",
+  "scene": "pipes",
+  "reference_index": 0,
+  "reference_frame": "DSC_0634.JPG",
+  "ordered_frame_ids": [
+    "DSC_0634.JPG",
+    "DSC_0635.JPG",
+    "DSC_0636.JPG",
+    "DSC_0644.JPG",
+    "DSC_0645.JPG"
+  ],
+  "condition": "c1_constant",
+  "confidence_params": {
+    "valid_raw_min": 1.426805019378662,
+    "valid_raw_max": 65.26774597167969,
+    "q05": 4.715938663482666,
+    "q95": 49.40375328063965,
+    "rank_definition": "scene-global empirical CDF using right insertion rank / valid pixel count",
+    "positive_confidence_floor": 0.0001
+  },
+  "bounds_source": "Omega prediction Q05/Q95 + 10% span padding",
+  "bounds": [
+    0.6136866053938865,
+    1.179124171435833
+  ],
+  "checkpoint_sha256": "6c78b5a41cb59de0fea171af86c47600194ab73b3ed1a81eccd662d633e74ea0",
+  "input_npz_sha256": "c4d4a324ee1cf5a4d11326d20b9ec885acd50162ada2c75085842d77b8d323e7",
+  "gt_read_by_inference": false,
+  "status": "completed",
+  "nonpositive_fused_pixel_count": 0,
+  "gpu": "NVIDIA GeForce RTX 5060",
+  "input_shapes": {
+    "depths": [
+      1,
+      5,
+      1,
+      336,
+      512
+    ],
+    "cams": [
+      1,
+      5,
+      2,
+      4,
+      4
+    ]
+  },
+  "output_shapes": {
+    "fused_depth": [
+      336,
+      512
+    ],
+    "fused_conf": [
+      336,
+      512
+    ],
+    "depth_bounds": [
+      1,
+      2,
+      336,
+      512
+    ]
+  },
+  "model_seconds": 0.4612852970021777,
+  "peak_allocated_bytes": 281654784,
+  "peak_reserved_bytes": 354418688,
+  "output_npz": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P3_20261124-004/results/inference/pipes/c1_constant/ref_00/v_fuse.npz",
+  "output_npz_sha256": "cfe74389706262469caaeb696c35e509ffaab62c9d81ebf02e15ce5c3b291168"
+}

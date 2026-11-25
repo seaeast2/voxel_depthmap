@@ -1,0 +1,925 @@
+{
+  "run_id": "VFUSE-20261124-003",
+  "stage_id": "P6_20261124-001",
+  "status": "completed",
+  "format": "binary_little_endian PLY",
+  "properties": [
+    "x",
+    "y",
+    "z",
+    "red",
+    "green",
+    "blue",
+    "confidence",
+    "source_view"
+  ],
+  "main_comparison": "raw Omega and P3 C1-C4 use identical per-reference VGGT-Omega camera poses/intrinsics and scale, so their PLYs are directly comparable in that predicted scene frame",
+  "heldout_reference_indices": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "predicted_camera_per_reference_ply_count": 100,
+  "predicted_camera_scene_aggregate_ply_count": 25,
+  "oracle_gtcamera_ply_count": 20,
+  "oracle_coordinate_frame_note": "P4 oracle-camera PLYs use ETH3D/COLMAP world coordinates and are intentionally separate; do not directly overlay with predicted-camera PLYs without a coordinate alignment",
+  "scale_fits_from_P5": {
+    "office": 2.2890658378601074,
+    "pipes": 2.361809730529785,
+    "courtyard": 6.130683898925781,
+    "delivery_area": 7.772397518157959,
+    "kicker": 2.643660545349121
+  },
+  "scenes": [
+    {
+      "scene": "office",
+      "scale_fit_reference_index": 0,
+      "scale_gt_over_omega": 2.2890658378601074,
+      "heldout_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "per_reference_clouds": 20,
+      "aggregate_clouds": 5,
+      "aggregates": [
+        {
+          "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/predicted_camera/office/aggregate_refs_01_04/omega_raw.ply",
+          "point_count": 688128,
+          "size_bytes": 13762861,
+          "sha256": "110c9f522a524875b8372477ff93f63e4981d764516822806a16bbc3832213da",
+          "scene": "office",
+          "variant": "omega_raw",
+          "reference_indices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "coordinate_frame": "VGGT-Omega predicted scene frame scaled by the scene reference-0 scale",
+          "metric_scale_gt_over_omega": 2.2890658378601074
+        },
+        {
+          "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/predicted_camera/office/aggregate_refs_01_04/vfuse_c1_constant.ply",
+          "point_count": 688128,
+          "size_bytes": 13762861,
+          "sha256": "30fe7144dedd8c26dd76d70ed4c7bee02cc64b88f670bedfb8020cd033a06bb2",
+          "scene": "office",
+          "variant": "vfuse_c1_constant",
+          "reference_indices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "coordinate_frame": "VGGT-Omega predicted scene frame scaled by the scene reference-0 scale",
+          "metric_scale_gt_over_omega": 2.2890658378601074
+        },
+        {
+          "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/predicted_camera/office/aggregate_refs_01_04/vfuse_c2_minmax.ply",
+          "point_count": 688128,
+          "size_bytes": 13762861,
+          "sha256": "ad0afa2a6025bc68497891b4f5d7bbb8f70ef893ce9a9a30643c734fe177cb69",
+          "scene": "office",
+          "variant": "vfuse_c2_minmax",
+          "reference_indices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "coordinate_frame": "VGGT-Omega predicted scene frame scaled by the scene reference-0 scale",
+          "metric_scale_gt_over_omega": 2.2890658378601074
+        },
+        {
+          "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/predicted_camera/office/aggregate_refs_01_04/vfuse_c3_percentile.ply",
+          "point_count": 688128,
+          "size_bytes": 13762861,
+          "sha256": "fe8ec86d40d7ff3021a7065f58a58df5b59d026633841646e5b7e8a946351b01",
+          "scene": "office",
+          "variant": "vfuse_c3_percentile",
+          "reference_indices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "coordinate_frame": "VGGT-Omega predicted scene frame scaled by the scene reference-0 scale",
+          "metric_scale_gt_over_omega": 2.2890658378601074
+        },
+        {
+          "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/predicted_camera/office/aggregate_refs_01_04/vfuse_c4_rank.ply",
+          "point_count": 688128,
+          "size_bytes": 13762861,
+          "sha256": "89ae6cba1561442f1f0bcecc57134d8b3499987d02ec14f42aa35bc97fb582d4",
+          "scene": "office",
+          "variant": "vfuse_c4_rank",
+          "reference_indices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "coordinate_frame": "VGGT-Omega predicted scene frame scaled by the scene reference-0 scale",
+          "metric_scale_gt_over_omega": 2.2890658378601074
+        }
+      ]
+    },
+    {
+      "scene": "pipes",
+      "scale_fit_reference_index": 0,
+      "scale_gt_over_omega": 2.361809730529785,
+      "heldout_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "per_reference_clouds": 20,
+      "aggregate_clouds": 5,
+      "aggregates": [
+        {
+          "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/predicted_camera/pipes/aggregate_refs_01_04/omega_raw.ply",
+          "point_count": 688128,
+          "size_bytes": 13762861,
+          "sha256": "28f36521f3c0eace1b333e6d58d5a9232ea44d9bb478b5a9d6c27f924ab702cb",
+          "scene": "pipes",
+          "variant": "omega_raw",
+          "reference_indices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "coordinate_frame": "VGGT-Omega predicted scene frame scaled by the scene reference-0 scale",
+          "metric_scale_gt_over_omega": 2.361809730529785
+        },
+        {
+          "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/predicted_camera/pipes/aggregate_refs_01_04/vfuse_c1_constant.ply",
+          "point_count": 688128,
+          "size_bytes": 13762861,
+          "sha256": "c48a6dfbf116bcd72ea0defafaa7c80724ca5f63e9728e29ae3be9b293a414de",
+          "scene": "pipes",
+          "variant": "vfuse_c1_constant",
+          "reference_indices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "coordinate_frame": "VGGT-Omega predicted scene frame scaled by the scene reference-0 scale",
+          "metric_scale_gt_over_omega": 2.361809730529785
+        },
+        {
+          "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/predicted_camera/pipes/aggregate_refs_01_04/vfuse_c2_minmax.ply",
+          "point_count": 688128,
+          "size_bytes": 13762861,
+          "sha256": "9338ce660265c17be98c01dfac7b50b49f9aa610237402e6a5dbd5558371b858",
+          "scene": "pipes",
+          "variant": "vfuse_c2_minmax",
+          "reference_indices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "coordinate_frame": "VGGT-Omega predicted scene frame scaled by the scene reference-0 scale",
+          "metric_scale_gt_over_omega": 2.361809730529785
+        },
+        {
+          "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/predicted_camera/pipes/aggregate_refs_01_04/vfuse_c3_percentile.ply",
+          "point_count": 688128,
+          "size_bytes": 13762861,
+          "sha256": "df51a3e466e2590a4e4ffeb968f8c24ec8c202248456f990560d3cffff1df2ab",
+          "scene": "pipes",
+          "variant": "vfuse_c3_percentile",
+          "reference_indices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "coordinate_frame": "VGGT-Omega predicted scene frame scaled by the scene reference-0 scale",
+          "metric_scale_gt_over_omega": 2.361809730529785
+        },
+        {
+          "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/predicted_camera/pipes/aggregate_refs_01_04/vfuse_c4_rank.ply",
+          "point_count": 688128,
+          "size_bytes": 13762861,
+          "sha256": "a167b01a5ef51478b5b3e0b6295d7043b842fa53f0c03e79fb6cd47986f63252",
+          "scene": "pipes",
+          "variant": "vfuse_c4_rank",
+          "reference_indices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "coordinate_frame": "VGGT-Omega predicted scene frame scaled by the scene reference-0 scale",
+          "metric_scale_gt_over_omega": 2.361809730529785
+        }
+      ]
+    },
+    {
+      "scene": "courtyard",
+      "scale_fit_reference_index": 0,
+      "scale_gt_over_omega": 6.130683898925781,
+      "heldout_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "per_reference_clouds": 20,
+      "aggregate_clouds": 5,
+      "aggregates": [
+        {
+          "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/predicted_camera/courtyard/aggregate_refs_01_04/omega_raw.ply",
+          "point_count": 688128,
+          "size_bytes": 13762861,
+          "sha256": "04bd1f1e9d4a58f70e385a27afdadb44767de0fae53da60a06a63e13d1dafb50",
+          "scene": "courtyard",
+          "variant": "omega_raw",
+          "reference_indices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "coordinate_frame": "VGGT-Omega predicted scene frame scaled by the scene reference-0 scale",
+          "metric_scale_gt_over_omega": 6.130683898925781
+        },
+        {
+          "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/predicted_camera/courtyard/aggregate_refs_01_04/vfuse_c1_constant.ply",
+          "point_count": 688128,
+          "size_bytes": 13762861,
+          "sha256": "006dfb089bc1e2145de9d7602f07a49cb25f3cd8ef4260d45ce878189d24a7e9",
+          "scene": "courtyard",
+          "variant": "vfuse_c1_constant",
+          "reference_indices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "coordinate_frame": "VGGT-Omega predicted scene frame scaled by the scene reference-0 scale",
+          "metric_scale_gt_over_omega": 6.130683898925781
+        },
+        {
+          "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/predicted_camera/courtyard/aggregate_refs_01_04/vfuse_c2_minmax.ply",
+          "point_count": 688128,
+          "size_bytes": 13762861,
+          "sha256": "14b7d40bcbc206b35e9ad73727a0e2d13032e27f5ff7edb9c58df78bf073b9ab",
+          "scene": "courtyard",
+          "variant": "vfuse_c2_minmax",
+          "reference_indices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "coordinate_frame": "VGGT-Omega predicted scene frame scaled by the scene reference-0 scale",
+          "metric_scale_gt_over_omega": 6.130683898925781
+        },
+        {
+          "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/predicted_camera/courtyard/aggregate_refs_01_04/vfuse_c3_percentile.ply",
+          "point_count": 688128,
+          "size_bytes": 13762861,
+          "sha256": "aa538a627c42afcb738a4bffd1c98d4b4a11af2013e1935bf1009de3a92f0790",
+          "scene": "courtyard",
+          "variant": "vfuse_c3_percentile",
+          "reference_indices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "coordinate_frame": "VGGT-Omega predicted scene frame scaled by the scene reference-0 scale",
+          "metric_scale_gt_over_omega": 6.130683898925781
+        },
+        {
+          "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/predicted_camera/courtyard/aggregate_refs_01_04/vfuse_c4_rank.ply",
+          "point_count": 688128,
+          "size_bytes": 13762861,
+          "sha256": "be0bff0cb6b02464bb15bd1e0845cb5392d564f67a87b226fecead18903d592b",
+          "scene": "courtyard",
+          "variant": "vfuse_c4_rank",
+          "reference_indices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "coordinate_frame": "VGGT-Omega predicted scene frame scaled by the scene reference-0 scale",
+          "metric_scale_gt_over_omega": 6.130683898925781
+        }
+      ]
+    },
+    {
+      "scene": "delivery_area",
+      "scale_fit_reference_index": 0,
+      "scale_gt_over_omega": 7.772397518157959,
+      "heldout_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "per_reference_clouds": 20,
+      "aggregate_clouds": 5,
+      "aggregates": [
+        {
+          "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/predicted_camera/delivery_area/aggregate_refs_01_04/omega_raw.ply",
+          "point_count": 688128,
+          "size_bytes": 13762861,
+          "sha256": "e30e3e49c2eed59549929b9418abcd90235f77ed8e9e817437edc2ac26c730cd",
+          "scene": "delivery_area",
+          "variant": "omega_raw",
+          "reference_indices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "coordinate_frame": "VGGT-Omega predicted scene frame scaled by the scene reference-0 scale",
+          "metric_scale_gt_over_omega": 7.772397518157959
+        },
+        {
+          "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/predicted_camera/delivery_area/aggregate_refs_01_04/vfuse_c1_constant.ply",
+          "point_count": 688128,
+          "size_bytes": 13762861,
+          "sha256": "d04e1df8c19c811b5fb8ea79075ce2c48656023c5713c0b473bc590874ee1373",
+          "scene": "delivery_area",
+          "variant": "vfuse_c1_constant",
+          "reference_indices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "coordinate_frame": "VGGT-Omega predicted scene frame scaled by the scene reference-0 scale",
+          "metric_scale_gt_over_omega": 7.772397518157959
+        },
+        {
+          "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/predicted_camera/delivery_area/aggregate_refs_01_04/vfuse_c2_minmax.ply",
+          "point_count": 688127,
+          "size_bytes": 13762841,
+          "sha256": "25277d9798739d368e4bf8c3caea5bf81c9e63a49c8d924aa130053f47b48d31",
+          "scene": "delivery_area",
+          "variant": "vfuse_c2_minmax",
+          "reference_indices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "coordinate_frame": "VGGT-Omega predicted scene frame scaled by the scene reference-0 scale",
+          "metric_scale_gt_over_omega": 7.772397518157959
+        },
+        {
+          "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/predicted_camera/delivery_area/aggregate_refs_01_04/vfuse_c3_percentile.ply",
+          "point_count": 688128,
+          "size_bytes": 13762861,
+          "sha256": "24959b304d72308b19b3a848e8c3026b011e194482d5932fff177e0b7a3d8663",
+          "scene": "delivery_area",
+          "variant": "vfuse_c3_percentile",
+          "reference_indices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "coordinate_frame": "VGGT-Omega predicted scene frame scaled by the scene reference-0 scale",
+          "metric_scale_gt_over_omega": 7.772397518157959
+        },
+        {
+          "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/predicted_camera/delivery_area/aggregate_refs_01_04/vfuse_c4_rank.ply",
+          "point_count": 688128,
+          "size_bytes": 13762861,
+          "sha256": "3d3c6aae55c19adc35d9caa086e0ff4c10debf741beef2ead4e303b572e36d92",
+          "scene": "delivery_area",
+          "variant": "vfuse_c4_rank",
+          "reference_indices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "coordinate_frame": "VGGT-Omega predicted scene frame scaled by the scene reference-0 scale",
+          "metric_scale_gt_over_omega": 7.772397518157959
+        }
+      ]
+    },
+    {
+      "scene": "kicker",
+      "scale_fit_reference_index": 0,
+      "scale_gt_over_omega": 2.643660545349121,
+      "heldout_references": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "per_reference_clouds": 20,
+      "aggregate_clouds": 5,
+      "aggregates": [
+        {
+          "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/predicted_camera/kicker/aggregate_refs_01_04/omega_raw.ply",
+          "point_count": 688128,
+          "size_bytes": 13762861,
+          "sha256": "6fb43af99d0eeeed8aa8bf82c330777e40a1024ebd3a73cb051e4b0c7f5c89d0",
+          "scene": "kicker",
+          "variant": "omega_raw",
+          "reference_indices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "coordinate_frame": "VGGT-Omega predicted scene frame scaled by the scene reference-0 scale",
+          "metric_scale_gt_over_omega": 2.643660545349121
+        },
+        {
+          "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/predicted_camera/kicker/aggregate_refs_01_04/vfuse_c1_constant.ply",
+          "point_count": 688128,
+          "size_bytes": 13762861,
+          "sha256": "5175bbe285f0f1a781fbb9ecb52debf7b828017575f0393f5faf6899713510f3",
+          "scene": "kicker",
+          "variant": "vfuse_c1_constant",
+          "reference_indices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "coordinate_frame": "VGGT-Omega predicted scene frame scaled by the scene reference-0 scale",
+          "metric_scale_gt_over_omega": 2.643660545349121
+        },
+        {
+          "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/predicted_camera/kicker/aggregate_refs_01_04/vfuse_c2_minmax.ply",
+          "point_count": 688128,
+          "size_bytes": 13762861,
+          "sha256": "2b685cb6881378601479e8d8e9184bb1c16309f7964fe93c14f4c9f1786b4798",
+          "scene": "kicker",
+          "variant": "vfuse_c2_minmax",
+          "reference_indices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "coordinate_frame": "VGGT-Omega predicted scene frame scaled by the scene reference-0 scale",
+          "metric_scale_gt_over_omega": 2.643660545349121
+        },
+        {
+          "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/predicted_camera/kicker/aggregate_refs_01_04/vfuse_c3_percentile.ply",
+          "point_count": 688128,
+          "size_bytes": 13762861,
+          "sha256": "3beb09a74c6572eea95b8eb63fac7b5fda936f3f355c52ab72be6314d57e8dd7",
+          "scene": "kicker",
+          "variant": "vfuse_c3_percentile",
+          "reference_indices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "coordinate_frame": "VGGT-Omega predicted scene frame scaled by the scene reference-0 scale",
+          "metric_scale_gt_over_omega": 2.643660545349121
+        },
+        {
+          "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/predicted_camera/kicker/aggregate_refs_01_04/vfuse_c4_rank.ply",
+          "point_count": 688128,
+          "size_bytes": 13762861,
+          "sha256": "df2b44a83960fd44dfe4d6f502575e36fc5c856ba49044d3c47bf066aedab7e3",
+          "scene": "kicker",
+          "variant": "vfuse_c4_rank",
+          "reference_indices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "coordinate_frame": "VGGT-Omega predicted scene frame scaled by the scene reference-0 scale",
+          "metric_scale_gt_over_omega": 2.643660545349121
+        }
+      ]
+    }
+  ],
+  "oracle_plys": [
+    {
+      "run_id": "VFUSE-20261124-003",
+      "stage_id": "P6_20261124-001",
+      "scene": "office",
+      "reference_index": 1,
+      "frame_id": "DSC_0220.JPG",
+      "variant": "vfuse_c3_percentile_gtcamera",
+      "camera_source": "ETH3D undistorted PINHOLE intrinsics and COLMAP poses",
+      "coordinate_frame": "ETH3D/COLMAP world frame; metric camera translations and ref-0 scale applied to depth",
+      "metric_scale_gt_over_omega": 2.2890658378601074,
+      "depth_source": "P4 GT-camera C3 fused depth",
+      "color_source": "resized RGB image from P2 cache",
+      "confidence_scalar_source": "P4 fused_conf",
+      "invalid_or_nonpositive_depth_excluded": 0,
+      "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/gt_camera_oracle/office/ref_01/vfuse_c3_percentile.ply",
+      "point_count": 172032,
+      "size_bytes": 3440941,
+      "sha256": "ee9ac503506a57f170af72c24376ba59a2e3196972dd49a951a24921f555d497"
+    },
+    {
+      "run_id": "VFUSE-20261124-003",
+      "stage_id": "P6_20261124-001",
+      "scene": "office",
+      "reference_index": 2,
+      "frame_id": "DSC_0229.JPG",
+      "variant": "vfuse_c3_percentile_gtcamera",
+      "camera_source": "ETH3D undistorted PINHOLE intrinsics and COLMAP poses",
+      "coordinate_frame": "ETH3D/COLMAP world frame; metric camera translations and ref-0 scale applied to depth",
+      "metric_scale_gt_over_omega": 2.2890658378601074,
+      "depth_source": "P4 GT-camera C3 fused depth",
+      "color_source": "resized RGB image from P2 cache",
+      "confidence_scalar_source": "P4 fused_conf",
+      "invalid_or_nonpositive_depth_excluded": 0,
+      "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/gt_camera_oracle/office/ref_02/vfuse_c3_percentile.ply",
+      "point_count": 172032,
+      "size_bytes": 3440941,
+      "sha256": "6ab3458c8f25bbc440bd1ca056e4a8393979aff44fbac38961c224fe731d2a22"
+    },
+    {
+      "run_id": "VFUSE-20261124-003",
+      "stage_id": "P6_20261124-001",
+      "scene": "office",
+      "reference_index": 3,
+      "frame_id": "DSC_0250.JPG",
+      "variant": "vfuse_c3_percentile_gtcamera",
+      "camera_source": "ETH3D undistorted PINHOLE intrinsics and COLMAP poses",
+      "coordinate_frame": "ETH3D/COLMAP world frame; metric camera translations and ref-0 scale applied to depth",
+      "metric_scale_gt_over_omega": 2.2890658378601074,
+      "depth_source": "P4 GT-camera C3 fused depth",
+      "color_source": "resized RGB image from P2 cache",
+      "confidence_scalar_source": "P4 fused_conf",
+      "invalid_or_nonpositive_depth_excluded": 0,
+      "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/gt_camera_oracle/office/ref_03/vfuse_c3_percentile.ply",
+      "point_count": 172032,
+      "size_bytes": 3440941,
+      "sha256": "01a779c2f2863c5a3f3000735206531f188eeed5903d9f8a3b5591a4d5e9ba98"
+    },
+    {
+      "run_id": "VFUSE-20261124-003",
+      "stage_id": "P6_20261124-001",
+      "scene": "office",
+      "reference_index": 4,
+      "frame_id": "DSC_0251.JPG",
+      "variant": "vfuse_c3_percentile_gtcamera",
+      "camera_source": "ETH3D undistorted PINHOLE intrinsics and COLMAP poses",
+      "coordinate_frame": "ETH3D/COLMAP world frame; metric camera translations and ref-0 scale applied to depth",
+      "metric_scale_gt_over_omega": 2.2890658378601074,
+      "depth_source": "P4 GT-camera C3 fused depth",
+      "color_source": "resized RGB image from P2 cache",
+      "confidence_scalar_source": "P4 fused_conf",
+      "invalid_or_nonpositive_depth_excluded": 0,
+      "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/gt_camera_oracle/office/ref_04/vfuse_c3_percentile.ply",
+      "point_count": 172032,
+      "size_bytes": 3440941,
+      "sha256": "f51d11ac54e3525bfa103ea9c3993ecd133b31d4a09d080e82af7d3521a67064"
+    },
+    {
+      "run_id": "VFUSE-20261124-003",
+      "stage_id": "P6_20261124-001",
+      "scene": "pipes",
+      "reference_index": 1,
+      "frame_id": "DSC_0635.JPG",
+      "variant": "vfuse_c3_percentile_gtcamera",
+      "camera_source": "ETH3D undistorted PINHOLE intrinsics and COLMAP poses",
+      "coordinate_frame": "ETH3D/COLMAP world frame; metric camera translations and ref-0 scale applied to depth",
+      "metric_scale_gt_over_omega": 2.361809730529785,
+      "depth_source": "P4 GT-camera C3 fused depth",
+      "color_source": "resized RGB image from P2 cache",
+      "confidence_scalar_source": "P4 fused_conf",
+      "invalid_or_nonpositive_depth_excluded": 0,
+      "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/gt_camera_oracle/pipes/ref_01/vfuse_c3_percentile.ply",
+      "point_count": 172032,
+      "size_bytes": 3440941,
+      "sha256": "a18b1d801f3e3bfcbd997d29f934e18f367cc7721c8c42c36303234af524d425"
+    },
+    {
+      "run_id": "VFUSE-20261124-003",
+      "stage_id": "P6_20261124-001",
+      "scene": "pipes",
+      "reference_index": 2,
+      "frame_id": "DSC_0636.JPG",
+      "variant": "vfuse_c3_percentile_gtcamera",
+      "camera_source": "ETH3D undistorted PINHOLE intrinsics and COLMAP poses",
+      "coordinate_frame": "ETH3D/COLMAP world frame; metric camera translations and ref-0 scale applied to depth",
+      "metric_scale_gt_over_omega": 2.361809730529785,
+      "depth_source": "P4 GT-camera C3 fused depth",
+      "color_source": "resized RGB image from P2 cache",
+      "confidence_scalar_source": "P4 fused_conf",
+      "invalid_or_nonpositive_depth_excluded": 0,
+      "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/gt_camera_oracle/pipes/ref_02/vfuse_c3_percentile.ply",
+      "point_count": 172032,
+      "size_bytes": 3440941,
+      "sha256": "e6018c2728f20e5e96d0f44892b3ea0231363f4021fdff6ff7a33cafc33d8d11"
+    },
+    {
+      "run_id": "VFUSE-20261124-003",
+      "stage_id": "P6_20261124-001",
+      "scene": "pipes",
+      "reference_index": 3,
+      "frame_id": "DSC_0644.JPG",
+      "variant": "vfuse_c3_percentile_gtcamera",
+      "camera_source": "ETH3D undistorted PINHOLE intrinsics and COLMAP poses",
+      "coordinate_frame": "ETH3D/COLMAP world frame; metric camera translations and ref-0 scale applied to depth",
+      "metric_scale_gt_over_omega": 2.361809730529785,
+      "depth_source": "P4 GT-camera C3 fused depth",
+      "color_source": "resized RGB image from P2 cache",
+      "confidence_scalar_source": "P4 fused_conf",
+      "invalid_or_nonpositive_depth_excluded": 0,
+      "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/gt_camera_oracle/pipes/ref_03/vfuse_c3_percentile.ply",
+      "point_count": 172032,
+      "size_bytes": 3440941,
+      "sha256": "7c0208e3503f070409aa8edf6c8a36735186692c43849b8e1dc0c6741fc13335"
+    },
+    {
+      "run_id": "VFUSE-20261124-003",
+      "stage_id": "P6_20261124-001",
+      "scene": "pipes",
+      "reference_index": 4,
+      "frame_id": "DSC_0645.JPG",
+      "variant": "vfuse_c3_percentile_gtcamera",
+      "camera_source": "ETH3D undistorted PINHOLE intrinsics and COLMAP poses",
+      "coordinate_frame": "ETH3D/COLMAP world frame; metric camera translations and ref-0 scale applied to depth",
+      "metric_scale_gt_over_omega": 2.361809730529785,
+      "depth_source": "P4 GT-camera C3 fused depth",
+      "color_source": "resized RGB image from P2 cache",
+      "confidence_scalar_source": "P4 fused_conf",
+      "invalid_or_nonpositive_depth_excluded": 0,
+      "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/gt_camera_oracle/pipes/ref_04/vfuse_c3_percentile.ply",
+      "point_count": 172032,
+      "size_bytes": 3440941,
+      "sha256": "73ebd06fe1b7a2afb3ac544420874fc606f476e9d2b767ec6499000c44cdca8a"
+    },
+    {
+      "run_id": "VFUSE-20261124-003",
+      "stage_id": "P6_20261124-001",
+      "scene": "courtyard",
+      "reference_index": 1,
+      "frame_id": "DSC_0289.JPG",
+      "variant": "vfuse_c3_percentile_gtcamera",
+      "camera_source": "ETH3D undistorted PINHOLE intrinsics and COLMAP poses",
+      "coordinate_frame": "ETH3D/COLMAP world frame; metric camera translations and ref-0 scale applied to depth",
+      "metric_scale_gt_over_omega": 6.130683898925781,
+      "depth_source": "P4 GT-camera C3 fused depth",
+      "color_source": "resized RGB image from P2 cache",
+      "confidence_scalar_source": "P4 fused_conf",
+      "invalid_or_nonpositive_depth_excluded": 0,
+      "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/gt_camera_oracle/courtyard/ref_01/vfuse_c3_percentile.ply",
+      "point_count": 172032,
+      "size_bytes": 3440941,
+      "sha256": "9891a9fc607c6be9831176948a1a3f4d8991a4f970a3aec7d8021f4c7dfd8687"
+    },
+    {
+      "run_id": "VFUSE-20261124-003",
+      "stage_id": "P6_20261124-001",
+      "scene": "courtyard",
+      "reference_index": 2,
+      "frame_id": "DSC_0290.JPG",
+      "variant": "vfuse_c3_percentile_gtcamera",
+      "camera_source": "ETH3D undistorted PINHOLE intrinsics and COLMAP poses",
+      "coordinate_frame": "ETH3D/COLMAP world frame; metric camera translations and ref-0 scale applied to depth",
+      "metric_scale_gt_over_omega": 6.130683898925781,
+      "depth_source": "P4 GT-camera C3 fused depth",
+      "color_source": "resized RGB image from P2 cache",
+      "confidence_scalar_source": "P4 fused_conf",
+      "invalid_or_nonpositive_depth_excluded": 0,
+      "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/gt_camera_oracle/courtyard/ref_02/vfuse_c3_percentile.ply",
+      "point_count": 172032,
+      "size_bytes": 3440941,
+      "sha256": "027d23e919cba379b80f922e1fc9902e17181777bdc4184e15768e84ab22590a"
+    },
+    {
+      "run_id": "VFUSE-20261124-003",
+      "stage_id": "P6_20261124-001",
+      "scene": "courtyard",
+      "reference_index": 3,
+      "frame_id": "DSC_0291.JPG",
+      "variant": "vfuse_c3_percentile_gtcamera",
+      "camera_source": "ETH3D undistorted PINHOLE intrinsics and COLMAP poses",
+      "coordinate_frame": "ETH3D/COLMAP world frame; metric camera translations and ref-0 scale applied to depth",
+      "metric_scale_gt_over_omega": 6.130683898925781,
+      "depth_source": "P4 GT-camera C3 fused depth",
+      "color_source": "resized RGB image from P2 cache",
+      "confidence_scalar_source": "P4 fused_conf",
+      "invalid_or_nonpositive_depth_excluded": 0,
+      "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/gt_camera_oracle/courtyard/ref_03/vfuse_c3_percentile.ply",
+      "point_count": 172032,
+      "size_bytes": 3440941,
+      "sha256": "4629bc1a3785bd63b02f99bbf2b96367a6cfadf3d0bd66da2ee5be8078fdbfdb"
+    },
+    {
+      "run_id": "VFUSE-20261124-003",
+      "stage_id": "P6_20261124-001",
+      "scene": "courtyard",
+      "reference_index": 4,
+      "frame_id": "DSC_0292.JPG",
+      "variant": "vfuse_c3_percentile_gtcamera",
+      "camera_source": "ETH3D undistorted PINHOLE intrinsics and COLMAP poses",
+      "coordinate_frame": "ETH3D/COLMAP world frame; metric camera translations and ref-0 scale applied to depth",
+      "metric_scale_gt_over_omega": 6.130683898925781,
+      "depth_source": "P4 GT-camera C3 fused depth",
+      "color_source": "resized RGB image from P2 cache",
+      "confidence_scalar_source": "P4 fused_conf",
+      "invalid_or_nonpositive_depth_excluded": 0,
+      "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/gt_camera_oracle/courtyard/ref_04/vfuse_c3_percentile.ply",
+      "point_count": 172032,
+      "size_bytes": 3440941,
+      "sha256": "a110bb8a43e4ebde14324cc1c8615f58d7e09748e3de7077b7ad24550cab164c"
+    },
+    {
+      "run_id": "VFUSE-20261124-003",
+      "stage_id": "P6_20261124-001",
+      "scene": "delivery_area",
+      "reference_index": 1,
+      "frame_id": "DSC_0701.JPG",
+      "variant": "vfuse_c3_percentile_gtcamera",
+      "camera_source": "ETH3D undistorted PINHOLE intrinsics and COLMAP poses",
+      "coordinate_frame": "ETH3D/COLMAP world frame; metric camera translations and ref-0 scale applied to depth",
+      "metric_scale_gt_over_omega": 7.772397518157959,
+      "depth_source": "P4 GT-camera C3 fused depth",
+      "color_source": "resized RGB image from P2 cache",
+      "confidence_scalar_source": "P4 fused_conf",
+      "invalid_or_nonpositive_depth_excluded": 0,
+      "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/gt_camera_oracle/delivery_area/ref_01/vfuse_c3_percentile.ply",
+      "point_count": 172032,
+      "size_bytes": 3440941,
+      "sha256": "c4b0f525c28bff08e1853edfb590c736600a7341058e85205104abaa59684e8a"
+    },
+    {
+      "run_id": "VFUSE-20261124-003",
+      "stage_id": "P6_20261124-001",
+      "scene": "delivery_area",
+      "reference_index": 2,
+      "frame_id": "DSC_0702.JPG",
+      "variant": "vfuse_c3_percentile_gtcamera",
+      "camera_source": "ETH3D undistorted PINHOLE intrinsics and COLMAP poses",
+      "coordinate_frame": "ETH3D/COLMAP world frame; metric camera translations and ref-0 scale applied to depth",
+      "metric_scale_gt_over_omega": 7.772397518157959,
+      "depth_source": "P4 GT-camera C3 fused depth",
+      "color_source": "resized RGB image from P2 cache",
+      "confidence_scalar_source": "P4 fused_conf",
+      "invalid_or_nonpositive_depth_excluded": 0,
+      "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/gt_camera_oracle/delivery_area/ref_02/vfuse_c3_percentile.ply",
+      "point_count": 172032,
+      "size_bytes": 3440941,
+      "sha256": "983a2acba256e9820132297ece844cb4cf6bbb643258e9aac0144d5d6a3b3216"
+    },
+    {
+      "run_id": "VFUSE-20261124-003",
+      "stage_id": "P6_20261124-001",
+      "scene": "delivery_area",
+      "reference_index": 3,
+      "frame_id": "DSC_0715.JPG",
+      "variant": "vfuse_c3_percentile_gtcamera",
+      "camera_source": "ETH3D undistorted PINHOLE intrinsics and COLMAP poses",
+      "coordinate_frame": "ETH3D/COLMAP world frame; metric camera translations and ref-0 scale applied to depth",
+      "metric_scale_gt_over_omega": 7.772397518157959,
+      "depth_source": "P4 GT-camera C3 fused depth",
+      "color_source": "resized RGB image from P2 cache",
+      "confidence_scalar_source": "P4 fused_conf",
+      "invalid_or_nonpositive_depth_excluded": 0,
+      "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/gt_camera_oracle/delivery_area/ref_03/vfuse_c3_percentile.ply",
+      "point_count": 172032,
+      "size_bytes": 3440941,
+      "sha256": "65065393b5696576c51c2481f731baed1ca4c3e2f8fd4099997df7be099b5923"
+    },
+    {
+      "run_id": "VFUSE-20261124-003",
+      "stage_id": "P6_20261124-001",
+      "scene": "delivery_area",
+      "reference_index": 4,
+      "frame_id": "DSC_0718.JPG",
+      "variant": "vfuse_c3_percentile_gtcamera",
+      "camera_source": "ETH3D undistorted PINHOLE intrinsics and COLMAP poses",
+      "coordinate_frame": "ETH3D/COLMAP world frame; metric camera translations and ref-0 scale applied to depth",
+      "metric_scale_gt_over_omega": 7.772397518157959,
+      "depth_source": "P4 GT-camera C3 fused depth",
+      "color_source": "resized RGB image from P2 cache",
+      "confidence_scalar_source": "P4 fused_conf",
+      "invalid_or_nonpositive_depth_excluded": 0,
+      "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/gt_camera_oracle/delivery_area/ref_04/vfuse_c3_percentile.ply",
+      "point_count": 172032,
+      "size_bytes": 3440941,
+      "sha256": "f860efd54a361e7cf516bce6cf61fa68bb32fa1ab329b33280151eef79c2875b"
+    },
+    {
+      "run_id": "VFUSE-20261124-003",
+      "stage_id": "P6_20261124-001",
+      "scene": "kicker",
+      "reference_index": 1,
+      "frame_id": "DSC_6510.JPG",
+      "variant": "vfuse_c3_percentile_gtcamera",
+      "camera_source": "ETH3D undistorted PINHOLE intrinsics and COLMAP poses",
+      "coordinate_frame": "ETH3D/COLMAP world frame; metric camera translations and ref-0 scale applied to depth",
+      "metric_scale_gt_over_omega": 2.643660545349121,
+      "depth_source": "P4 GT-camera C3 fused depth",
+      "color_source": "resized RGB image from P2 cache",
+      "confidence_scalar_source": "P4 fused_conf",
+      "invalid_or_nonpositive_depth_excluded": 0,
+      "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/gt_camera_oracle/kicker/ref_01/vfuse_c3_percentile.ply",
+      "point_count": 172032,
+      "size_bytes": 3440941,
+      "sha256": "60c97a6fb8537416444db01b5fc71d1a0caeb5ac5329f46d6f52fe2e6ff05971"
+    },
+    {
+      "run_id": "VFUSE-20261124-003",
+      "stage_id": "P6_20261124-001",
+      "scene": "kicker",
+      "reference_index": 2,
+      "frame_id": "DSC_6511.JPG",
+      "variant": "vfuse_c3_percentile_gtcamera",
+      "camera_source": "ETH3D undistorted PINHOLE intrinsics and COLMAP poses",
+      "coordinate_frame": "ETH3D/COLMAP world frame; metric camera translations and ref-0 scale applied to depth",
+      "metric_scale_gt_over_omega": 2.643660545349121,
+      "depth_source": "P4 GT-camera C3 fused depth",
+      "color_source": "resized RGB image from P2 cache",
+      "confidence_scalar_source": "P4 fused_conf",
+      "invalid_or_nonpositive_depth_excluded": 0,
+      "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/gt_camera_oracle/kicker/ref_02/vfuse_c3_percentile.ply",
+      "point_count": 172032,
+      "size_bytes": 3440941,
+      "sha256": "71a33a0d46cbc139146c059a046b85bc0a52de5165a0db44af01751d07e4d928"
+    },
+    {
+      "run_id": "VFUSE-20261124-003",
+      "stage_id": "P6_20261124-001",
+      "scene": "kicker",
+      "reference_index": 3,
+      "frame_id": "DSC_6512.JPG",
+      "variant": "vfuse_c3_percentile_gtcamera",
+      "camera_source": "ETH3D undistorted PINHOLE intrinsics and COLMAP poses",
+      "coordinate_frame": "ETH3D/COLMAP world frame; metric camera translations and ref-0 scale applied to depth",
+      "metric_scale_gt_over_omega": 2.643660545349121,
+      "depth_source": "P4 GT-camera C3 fused depth",
+      "color_source": "resized RGB image from P2 cache",
+      "confidence_scalar_source": "P4 fused_conf",
+      "invalid_or_nonpositive_depth_excluded": 0,
+      "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/gt_camera_oracle/kicker/ref_03/vfuse_c3_percentile.ply",
+      "point_count": 172032,
+      "size_bytes": 3440941,
+      "sha256": "4e61304d2c785da2bbe962d57317703b714042624db0ff5c40ececb382ba8f47"
+    },
+    {
+      "run_id": "VFUSE-20261124-003",
+      "stage_id": "P6_20261124-001",
+      "scene": "kicker",
+      "reference_index": 4,
+      "frame_id": "DSC_6513.JPG",
+      "variant": "vfuse_c3_percentile_gtcamera",
+      "camera_source": "ETH3D undistorted PINHOLE intrinsics and COLMAP poses",
+      "coordinate_frame": "ETH3D/COLMAP world frame; metric camera translations and ref-0 scale applied to depth",
+      "metric_scale_gt_over_omega": 2.643660545349121,
+      "depth_source": "P4 GT-camera C3 fused depth",
+      "color_source": "resized RGB image from P2 cache",
+      "confidence_scalar_source": "P4 fused_conf",
+      "invalid_or_nonpositive_depth_excluded": 0,
+      "path": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P6_20261124-001/results/pointclouds/gt_camera_oracle/kicker/ref_04/vfuse_c3_percentile.ply",
+      "point_count": 172032,
+      "size_bytes": 3440941,
+      "sha256": "ae8e2dff018f1e9bd6bbce6ce5bd2f71e19786e597dbf50753b6f83ce2ba2034"
+    }
+  ],
+  "visualizations": [
+    {
+      "path": "results/VFUSE-20261124-003/P6_20261124-001/results/visualizations/aggregate_rgb_comparison.png",
+      "size_bytes": 3469159,
+      "sha256": "afdaf227712477761c42fc3bd0b4956ce97bd8ec1775694e7501c51f5a516c3c",
+      "description": "RGB-colored PLY preview; sampled points; PCA rotation for display only"
+    },
+    {
+      "path": "results/VFUSE-20261124-003/P6_20261124-001/results/visualizations/aggregate_rgb_comparison_dark.png",
+      "size_bytes": 3493821,
+      "sha256": "278eff9319252c4a32235ad8e53fa3a4f575ef7adfb9468e56ee8ebc9f7dde71",
+      "description": "RGB-colored PLY preview; sampled points; PCA rotation for display only"
+    },
+    {
+      "path": "results/VFUSE-20261124-003/P6_20261124-001/results/visualizations/aggregate_rgb_comparison_detail.png",
+      "size_bytes": 4508449,
+      "sha256": "2089cdefe479b8445625882cd9a8a86a014b4b5740f4ee4222b16b55d9bd6dae",
+      "description": "RGB-colored PLY preview; sampled points; PCA rotation for display only"
+    },
+    {
+      "path": "results/VFUSE-20261124-003/P6_20261124-001/results/visualizations/delivery_area_comparison_dark.png",
+      "size_bytes": 462997,
+      "sha256": "aed6555f42f88901f0c0ceda71cb35f86bafb0db155e7ae5bfd9a4a377efb7ff",
+      "description": "RGB-colored PLY preview; sampled points; PCA rotation for display only"
+    },
+    {
+      "path": "results/VFUSE-20261124-003/P6_20261124-001/results/visualizations/delivery_area_comparison_detail.png",
+      "size_bytes": 458099,
+      "sha256": "57b5710c4f147c2ab6e65978f858d79e1b71e73d3f1e9cce222a9e0c10276365",
+      "description": "RGB-colored PLY preview; sampled points; PCA rotation for display only"
+    }
+  ]
+}

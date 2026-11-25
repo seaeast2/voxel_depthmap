@@ -1,0 +1,443 @@
+{
+  "run_id": "VFUSE-20261124-003",
+  "stage_id": "P1_20261124-002",
+  "purpose": "clarify the center check reported by P1_20261124-001",
+  "test_scope": "numerical evaluation of the COLMAP THIN_PRISM_FISHEYE equation exactly at the PINHOLE optical center; this is not an image-wide inverse round-trip/remap validation",
+  "scenes": [
+    {
+      "scene": "office",
+      "checks": [
+        {
+          "frame": "DSC_0219.JPG",
+          "undistorted_center": [
+            3127.19,
+            2066.98
+          ],
+          "distorted_center_expected": [
+            3040.23,
+            2010.15
+          ],
+          "projected_center": [
+            3040.23,
+            2010.15
+          ],
+          "numerical_error_px": 0.0
+        },
+        {
+          "frame": "DSC_0220.JPG",
+          "undistorted_center": [
+            3127.19,
+            2066.98
+          ],
+          "distorted_center_expected": [
+            3040.23,
+            2010.15
+          ],
+          "projected_center": [
+            3040.23,
+            2010.15
+          ],
+          "numerical_error_px": 0.0
+        },
+        {
+          "frame": "DSC_0229.JPG",
+          "undistorted_center": [
+            3127.19,
+            2066.98
+          ],
+          "distorted_center_expected": [
+            3040.23,
+            2010.15
+          ],
+          "projected_center": [
+            3040.23,
+            2010.15
+          ],
+          "numerical_error_px": 0.0
+        },
+        {
+          "frame": "DSC_0250.JPG",
+          "undistorted_center": [
+            3127.19,
+            2066.98
+          ],
+          "distorted_center_expected": [
+            3040.23,
+            2010.15
+          ],
+          "projected_center": [
+            3040.23,
+            2010.15
+          ],
+          "numerical_error_px": 0.0
+        },
+        {
+          "frame": "DSC_0251.JPG",
+          "undistorted_center": [
+            3127.19,
+            2066.98
+          ],
+          "distorted_center_expected": [
+            3040.23,
+            2010.15
+          ],
+          "projected_center": [
+            3040.23,
+            2010.15
+          ],
+          "numerical_error_px": 0.0
+        }
+      ],
+      "max_numerical_error_px": 0.0,
+      "pass_tol_1e-6_px": true
+    },
+    {
+      "scene": "pipes",
+      "checks": [
+        {
+          "frame": "DSC_0634.JPG",
+          "undistorted_center": [
+            3119.2,
+            2057.75
+          ],
+          "distorted_center_expected": [
+            3032.95,
+            2003.59
+          ],
+          "projected_center": [
+            3032.95,
+            2003.59
+          ],
+          "numerical_error_px": 0.0
+        },
+        {
+          "frame": "DSC_0635.JPG",
+          "undistorted_center": [
+            3119.2,
+            2057.75
+          ],
+          "distorted_center_expected": [
+            3032.95,
+            2003.59
+          ],
+          "projected_center": [
+            3032.95,
+            2003.59
+          ],
+          "numerical_error_px": 0.0
+        },
+        {
+          "frame": "DSC_0636.JPG",
+          "undistorted_center": [
+            3119.2,
+            2057.75
+          ],
+          "distorted_center_expected": [
+            3032.95,
+            2003.59
+          ],
+          "projected_center": [
+            3032.95,
+            2003.59
+          ],
+          "numerical_error_px": 0.0
+        },
+        {
+          "frame": "DSC_0644.JPG",
+          "undistorted_center": [
+            3119.2,
+            2057.75
+          ],
+          "distorted_center_expected": [
+            3032.95,
+            2003.59
+          ],
+          "projected_center": [
+            3032.95,
+            2003.59
+          ],
+          "numerical_error_px": 0.0
+        },
+        {
+          "frame": "DSC_0645.JPG",
+          "undistorted_center": [
+            3119.2,
+            2057.75
+          ],
+          "distorted_center_expected": [
+            3032.95,
+            2003.59
+          ],
+          "projected_center": [
+            3032.95,
+            2003.59
+          ],
+          "numerical_error_px": 0.0
+        }
+      ],
+      "max_numerical_error_px": 0.0,
+      "pass_tol_1e-6_px": true
+    },
+    {
+      "scene": "courtyard",
+      "checks": [
+        {
+          "frame": "DSC_0288.JPG",
+          "undistorted_center": [
+            3115.16,
+            2064.73
+          ],
+          "distorted_center_expected": [
+            3036.34,
+            2013.3
+          ],
+          "projected_center": [
+            3036.34,
+            2013.3
+          ],
+          "numerical_error_px": 0.0
+        },
+        {
+          "frame": "DSC_0289.JPG",
+          "undistorted_center": [
+            3115.16,
+            2064.73
+          ],
+          "distorted_center_expected": [
+            3036.34,
+            2013.3
+          ],
+          "projected_center": [
+            3036.34,
+            2013.3
+          ],
+          "numerical_error_px": 0.0
+        },
+        {
+          "frame": "DSC_0290.JPG",
+          "undistorted_center": [
+            3115.16,
+            2064.73
+          ],
+          "distorted_center_expected": [
+            3036.34,
+            2013.3
+          ],
+          "projected_center": [
+            3036.34,
+            2013.3
+          ],
+          "numerical_error_px": 0.0
+        },
+        {
+          "frame": "DSC_0291.JPG",
+          "undistorted_center": [
+            3115.16,
+            2064.73
+          ],
+          "distorted_center_expected": [
+            3036.34,
+            2013.3
+          ],
+          "projected_center": [
+            3036.34,
+            2013.3
+          ],
+          "numerical_error_px": 0.0
+        },
+        {
+          "frame": "DSC_0292.JPG",
+          "undistorted_center": [
+            3115.16,
+            2064.73
+          ],
+          "distorted_center_expected": [
+            3036.34,
+            2013.3
+          ],
+          "projected_center": [
+            3036.34,
+            2013.3
+          ],
+          "numerical_error_px": 0.0
+        }
+      ],
+      "max_numerical_error_px": 0.0,
+      "pass_tol_1e-6_px": true
+    },
+    {
+      "scene": "delivery_area",
+      "checks": [
+        {
+          "frame": "DSC_0700.JPG",
+          "undistorted_center": [
+            3117.24,
+            2064.07
+          ],
+          "distorted_center_expected": [
+            3036.9,
+            2012.66
+          ],
+          "projected_center": [
+            3036.9,
+            2012.66
+          ],
+          "numerical_error_px": 0.0
+        },
+        {
+          "frame": "DSC_0701.JPG",
+          "undistorted_center": [
+            3117.24,
+            2064.07
+          ],
+          "distorted_center_expected": [
+            3036.9,
+            2012.66
+          ],
+          "projected_center": [
+            3036.9,
+            2012.66
+          ],
+          "numerical_error_px": 0.0
+        },
+        {
+          "frame": "DSC_0702.JPG",
+          "undistorted_center": [
+            3117.24,
+            2064.07
+          ],
+          "distorted_center_expected": [
+            3036.9,
+            2012.66
+          ],
+          "projected_center": [
+            3036.9,
+            2012.66
+          ],
+          "numerical_error_px": 0.0
+        },
+        {
+          "frame": "DSC_0715.JPG",
+          "undistorted_center": [
+            3117.24,
+            2064.07
+          ],
+          "distorted_center_expected": [
+            3036.9,
+            2012.66
+          ],
+          "projected_center": [
+            3036.9,
+            2012.66
+          ],
+          "numerical_error_px": 0.0
+        },
+        {
+          "frame": "DSC_0718.JPG",
+          "undistorted_center": [
+            3117.24,
+            2064.07
+          ],
+          "distorted_center_expected": [
+            3036.9,
+            2012.66
+          ],
+          "projected_center": [
+            3036.9,
+            2012.66
+          ],
+          "numerical_error_px": 0.0
+        }
+      ],
+      "max_numerical_error_px": 0.0,
+      "pass_tol_1e-6_px": true
+    },
+    {
+      "scene": "kicker",
+      "checks": [
+        {
+          "frame": "DSC_6495.JPG",
+          "undistorted_center": [
+            3121.33,
+            2067.07
+          ],
+          "distorted_center_expected": [
+            3039.41,
+            2014.61
+          ],
+          "projected_center": [
+            3039.41,
+            2014.61
+          ],
+          "numerical_error_px": 0.0
+        },
+        {
+          "frame": "DSC_6510.JPG",
+          "undistorted_center": [
+            3121.33,
+            2067.07
+          ],
+          "distorted_center_expected": [
+            3039.41,
+            2014.61
+          ],
+          "projected_center": [
+            3039.41,
+            2014.61
+          ],
+          "numerical_error_px": 0.0
+        },
+        {
+          "frame": "DSC_6511.JPG",
+          "undistorted_center": [
+            3121.33,
+            2067.07
+          ],
+          "distorted_center_expected": [
+            3039.41,
+            2014.61
+          ],
+          "projected_center": [
+            3039.41,
+            2014.61
+          ],
+          "numerical_error_px": 0.0
+        },
+        {
+          "frame": "DSC_6512.JPG",
+          "undistorted_center": [
+            3121.33,
+            2067.07
+          ],
+          "distorted_center_expected": [
+            3039.41,
+            2014.61
+          ],
+          "projected_center": [
+            3039.41,
+            2014.61
+          ],
+          "numerical_error_px": 0.0
+        },
+        {
+          "frame": "DSC_6513.JPG",
+          "undistorted_center": [
+            3121.33,
+            2067.07
+          ],
+          "distorted_center_expected": [
+            3039.41,
+            2014.61
+          ],
+          "projected_center": [
+            3039.41,
+            2014.61
+          ],
+          "numerical_error_px": 0.0
+        }
+      ],
+      "max_numerical_error_px": 0.0,
+      "pass_tol_1e-6_px": true
+    }
+  ]
+}

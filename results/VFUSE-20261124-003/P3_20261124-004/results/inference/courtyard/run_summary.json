@@ -1,0 +1,184 @@
+{
+  "run_id": "VFUSE-20261124-003",
+  "stage_id": "P3_20261124-004",
+  "scene": "courtyard",
+  "status": "completed",
+  "checkpoint": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P0_20261124-001/assets/checkpoints/vfuse_gbinet_V10.0.7.pt",
+  "checkpoint_sha256": "6c78b5a41cb59de0fea171af86c47600194ab73b3ed1a81eccd662d633e74ea0",
+  "input_npz": "/home/hlee221212/works/gradresearch/voxel_depthmap/results/VFUSE-20261124-003/P2_20261124-001/results/omega_raw/courtyard/vggt_omega_raw.npz",
+  "input_npz_sha256": "0af797c2070f8a13d97c77ea4c6c48c94e5fab07fa4ddabaad713fa199b38b80",
+  "gpu": "NVIDIA GeForce RTX 5060",
+  "conditions": [
+    "c1_constant",
+    "c2_minmax",
+    "c3_percentile",
+    "c4_rank"
+  ],
+  "reference_count": 5,
+  "inference_count": 20,
+  "total_seconds": 5.35704319299839,
+  "peak_allocated_bytes": 281654784,
+  "peak_reserved_bytes": 354418688,
+  "runs": [
+    {
+      "condition": "c1_constant",
+      "reference_index": 0,
+      "frame": "DSC_0288.JPG",
+      "model_seconds": 0.4602111499989405,
+      "nonpositive_fused_pixel_count": 0,
+      "output_npz_sha256": "5f3e7c6a1f1e2d8e51bce22777889318d2284c9c9a0f95b816bf20271a073d4e"
+    },
+    {
+      "condition": "c1_constant",
+      "reference_index": 1,
+      "frame": "DSC_0289.JPG",
+      "model_seconds": 0.052561189004336484,
+      "nonpositive_fused_pixel_count": 0,
+      "output_npz_sha256": "d4740ca165e1d85edb58d9717988f1aa7df1e34f6b228ab975c5b8c2edf93eb0"
+    },
+    {
+      "condition": "c1_constant",
+      "reference_index": 2,
+      "frame": "DSC_0290.JPG",
+      "model_seconds": 0.05293265701038763,
+      "nonpositive_fused_pixel_count": 0,
+      "output_npz_sha256": "328613ded9f8142b9d95491b8eb360eb011869795f38e073c7fd7b9de466228b"
+    },
+    {
+      "condition": "c1_constant",
+      "reference_index": 3,
+      "frame": "DSC_0291.JPG",
+      "model_seconds": 0.056941108996397816,
+      "nonpositive_fused_pixel_count": 0,
+      "output_npz_sha256": "c12e423c61e003ab6c2619ec877f8dd055bcb179bd558a67a3fbaeacc2061c46"
+    },
+    {
+      "condition": "c1_constant",
+      "reference_index": 4,
+      "frame": "DSC_0292.JPG",
+      "model_seconds": 0.05011514699435793,
+      "nonpositive_fused_pixel_count": 0,
+      "output_npz_sha256": "26065bfefed45f5d3b1c780a820f747298df11c01e01aacf7ec578f9f243f562"
+    },
+    {
+      "condition": "c2_minmax",
+      "reference_index": 0,
+      "frame": "DSC_0288.JPG",
+      "model_seconds": 0.09257855000032578,
+      "nonpositive_fused_pixel_count": 0,
+      "output_npz_sha256": "3a8ca8233d172e58adca30679cbcff8780e57ab87b2c23c36d22cf1d793b1179"
+    },
+    {
+      "condition": "c2_minmax",
+      "reference_index": 1,
+      "frame": "DSC_0289.JPG",
+      "model_seconds": 0.04807476401038002,
+      "nonpositive_fused_pixel_count": 0,
+      "output_npz_sha256": "bcc4815f6f090016d466dce01893fc12fd75eba41fad774dc5628c681793d6a8"
+    },
+    {
+      "condition": "c2_minmax",
+      "reference_index": 2,
+      "frame": "DSC_0290.JPG",
+      "model_seconds": 0.09119531499163713,
+      "nonpositive_fused_pixel_count": 0,
+      "output_npz_sha256": "1ee7917c91ab4d3a509e4760efea982ddc1a0556597ddf34a343b44c94d16a84"
+    },
+    {
+      "condition": "c2_minmax",
+      "reference_index": 3,
+      "frame": "DSC_0291.JPG",
+      "model_seconds": 0.04859171700081788,
+      "nonpositive_fused_pixel_count": 0,
+      "output_npz_sha256": "af0b966cbab5197be5e7a3229f03ea072aade967327f79b53b4618d95dbe8b20"
+    },
+    {
+      "condition": "c2_minmax",
+      "reference_index": 4,
+      "frame": "DSC_0292.JPG",
+      "model_seconds": 0.09030765399802476,
+      "nonpositive_fused_pixel_count": 0,
+      "output_npz_sha256": "1e4034dc28761c2b395942748ff33aab1cdeb46a6be5a68a55a1d4f82e34bfe4"
+    },
+    {
+      "condition": "c3_percentile",
+      "reference_index": 0,
+      "frame": "DSC_0288.JPG",
+      "model_seconds": 0.046558945992728695,
+      "nonpositive_fused_pixel_count": 0,
+      "output_npz_sha256": "3057fa417a7094778abf4c2782c46238146772a6c027ce43c3a9e7d4ef58fc6a"
+    },
+    {
+      "condition": "c3_percentile",
+      "reference_index": 1,
+      "frame": "DSC_0289.JPG",
+      "model_seconds": 0.08764377899933606,
+      "nonpositive_fused_pixel_count": 0,
+      "output_npz_sha256": "e1b76ce97dc2e027c8176d6aedbd9bd63c6f483f79cf55202767a65f534e3eff"
+    },
+    {
+      "condition": "c3_percentile",
+      "reference_index": 2,
+      "frame": "DSC_0290.JPG",
+      "model_seconds": 0.04900286000338383,
+      "nonpositive_fused_pixel_count": 0,
+      "output_npz_sha256": "0743a6819922b3a4df542570e6c6636b8866d3cb5ce32ea8dbedc85cbc1637eb"
+    },
+    {
+      "condition": "c3_percentile",
+      "reference_index": 3,
+      "frame": "DSC_0291.JPG",
+      "model_seconds": 0.09129929399932735,
+      "nonpositive_fused_pixel_count": 0,
+      "output_npz_sha256": "cff3c5eb7965e057b77ece2f66651ce79c7d66d54dbea5d209db0c82d3595ded"
+    },
+    {
+      "condition": "c3_percentile",
+      "reference_index": 4,
+      "frame": "DSC_0292.JPG",
+      "model_seconds": 0.08574812400911469,
+      "nonpositive_fused_pixel_count": 0,
+      "output_npz_sha256": "db19018442195ba623068ed3a1af56be79e121b06ae184ba27b4c050480d6742"
+    },
+    {
+      "condition": "c4_rank",
+      "reference_index": 0,
+      "frame": "DSC_0288.JPG",
+      "model_seconds": 0.05025301099522039,
+      "nonpositive_fused_pixel_count": 0,
+      "output_npz_sha256": "25ed6878cd47d225abbc1fb9dbb104ba32e097bbcbec34b6d75fbf49dc26c60a"
+    },
+    {
+      "condition": "c4_rank",
+      "reference_index": 1,
+      "frame": "DSC_0289.JPG",
+      "model_seconds": 0.047350520006148145,
+      "nonpositive_fused_pixel_count": 0,
+      "output_npz_sha256": "adce40af41723799c391775808a20122e49c2d6ef004d9a3ba738fe7d3e89279"
+    },
+    {
+      "condition": "c4_rank",
+      "reference_index": 2,
+      "frame": "DSC_0290.JPG",
+      "model_seconds": 0.04842511301103514,
+      "nonpositive_fused_pixel_count": 0,
+      "output_npz_sha256": "e5572d977dd3b1508412960d8fc6c0fdf97d30dd9d3644425fdf6f21bd6ae6bb"
+    },
+    {
+      "condition": "c4_rank",
+      "reference_index": 3,
+      "frame": "DSC_0291.JPG",
+      "model_seconds": 0.05241334799211472,
+      "nonpositive_fused_pixel_count": 0,
+      "output_npz_sha256": "19d11e4a663694d2dbf37dcceac71c8cc25d226d54e99be2b73516ab7604c423"
+    },
+    {
+      "condition": "c4_rank",
+      "reference_index": 4,
+      "frame": "DSC_0292.JPG",
+      "model_seconds": 0.04933634400367737,
+      "nonpositive_fused_pixel_count": 0,
+      "output_npz_sha256": "be0a814a9fcb3181387098e6af2926c12e7eb92d9148d053f90aa6fe0c348b99"
+    }
+  ]
+}
